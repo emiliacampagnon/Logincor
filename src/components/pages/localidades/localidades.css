@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.provincias-localidades {
+  min-height: 750px;
+}
+.contenedorLocalidades {
+  display: flex;
+  flex-direction: row;
+}
+.contenedorLabel {
+  display: flex;
+  flex-direction: column !important;
+  background-color: #02012b;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 15px;
+  height: 500px;
+  width: 700px;
+}
+.destinosH1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  margin: 30px !important;
+  margin-bottom: 90px !important;
+}
+.mapaImg {
+  width: 500px;
+}
+.textosLabel {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin: 15px 0px;
+}
+.textoSeleccionado {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.form-select {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilos para react-select */
+.react-select__control {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.react-select__option {
+  padding: 15px; /* Incrementa la separación vertical */
+}
+
+.react-select__option--is-focused {
+  background-color: #02012b;
+  color: white;
+}
+
+.react-select__option--is-selected {
+  background-color: #02012b;
+  color: white;
+}
+
+.react-select__dropdown-indicator {
+  display: none !important;
+}
+
+.react-select__indicator-separator {
+  display: none !important;
+}
+
+.nuestrosDestinos {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 350px;
+}
+.contenedorTitulo {
+  margin-top: 40px !important;
+  margin: 20px;
+  width: 600px;
+  height: 100px;
+  background-color: #02012b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.contenedorTotal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pediContainer {
+  border-radius: 15px !important;
+}
+
+.contenedorTitulo2 {
+  margin: 30px;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 15px;
+  height: 50px;
+  width: 560px;
+  background-color: white !important;
+}
+.cotizacion {
+  width: 300px;
+  background-color: white;
+}
+
+.whatsappIcon {
+  color: #02012b;
+  font-size: 30px !important;
+}

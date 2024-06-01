@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbarContainer {
+  background-color: #02012b;
+  display: flex !important;
+  flex-direction: row;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 150px;
+  padding: 20px;
+}
+
+.pages {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: end !important;
+}
+
+.logoLogincor {
+  margin: 10px;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 150px;
+  display: flex;
+  margin: 2px;
+  align-items: center !important;
+  text-align: center !important;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  border-radius: 15px;
+}
+
+.nav-link:hover {
+  color: #02012b;
+  background-color: rgba(255, 255, 255, 0.667);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link.active {
+  color: #02012b;
+  background-color: rgba(255, 255, 255, 0.667);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.1);
+}

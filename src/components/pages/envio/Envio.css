@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.segui {
+  height: 60px;
+  background-color: #02012b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.seguiContainer {
+  width: 600px;
+  height: 85px;
+  background-color: #02012b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  border-radius: 50px;
+}
+.containerPrincipal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchIcon {
+  color: white;
+  font-size: 40px !important;
+  margin-left: 20px;
+}
+h5 {
+  color: #02012b;
+}

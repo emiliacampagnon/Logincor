@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.initial-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #02012b;
+}
+
+.initial-image {
+  max-width: 70%;
+  height: auto;
+}
+
+.view-more-button {
+  height: 100px !important;
+  width: 100px !important;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 100px !important;
+}
+.addIcon {
+  font-size: 50px !important;
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  size: 30rem;
+  text-align: center;
+  margin: 10rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-decoration: none !important;
+}
+.itemList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
+.nuestrosServicios {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 350px;
+}
+.contenedorTitulo {
+  margin-top: 40px !important;
+  margin-bottom: 30px !important;
+  margin: 20px;
+  width: 600px;
+  height: 70px !important;
+  background-color: #02012b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.contenedorTotal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

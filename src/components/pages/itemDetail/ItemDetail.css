@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedorDetail {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.typoDescription2 {
+  text-align: justify;
+  margin: 10px;
+  font-size: small;
+}
+.typoPrecio {
+  font-weight: bold;
+  text-align: center;
+  font-size: large;
+}

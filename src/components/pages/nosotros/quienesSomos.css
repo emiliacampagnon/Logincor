@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedorTotal2 {
+  width: 95vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  flex-direction: column;
+}
+
+.contenedorImg2 {
+  margin-top: 40px !important;
+  margin-bottom: 30px !important;
+  margin: 20px;
+  width: 600px;
+  height: 70px;
+  background-color: #02012b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.nosotrosImg2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 500px;
+}
+.contenedorCards2 {
+  width: 90vw;
+  height: auto;
+  background-color: #d0e0ff48;
+  border-radius: 15px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 20px;
+}
+.cardGeneral2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cardCard2 {
+  width: 80vw !important;
+  min-height: 300px !important;
+  background-color: #02012b;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-evenly !important;
+  flex-direction: row;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.imgImg2 {
+  width: 200px;
+  margin: 50px;
+}
+
+.texto1 {
+  font-size: 25px;
+  text-align: justify;
+  margin: 80px 200px;
+}
+.texto2 {
+  text-align: left;
+  color: white;
+  margin: 15px;
+  margin-bottom: 40px;
+}
+.texto3 {
+  text-align: justify;
+  font-size: larger;
+  margin: 5px 40px;
+  line-height: 35px;
+
+  color: white;
+  font-weight: 250;
+}
+.texto4 {
+  text-align: justify;
+  font-size: large;
+  margin: 10px 70px;
+  line-height: 25px;
+  font-weight: 250;
+  color: white;
+}
+.texto5 {
+  text-align: justify;
+  font-size: 20px;
+  margin: 10px 40px;
+  line-height: 35px;
+  font-weight: 450;
+  color: white;
+}

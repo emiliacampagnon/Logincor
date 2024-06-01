@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .carousel-wrapper {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel {
+  width: 100%;
+}
+.carousel-item {
+  width: 100%;
+  text-align: center;
+}
+
+.imageCarousel {
+  width: 95%;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+button {
+  margin-left: 0px;
+  width: 10vw !important;
+}
+.carousel-inner {
+  margin: 5px;
+  background-color: #02012b;
+  border-radius: 10px;
+}
+.carousel-indicators {
+  margin-bottom: 30px;
+} */
+.imagenSola {
+  max-width: 100vw !important;
+  height: auto !important;
+}
+
+.imgCamion {
+  max-width: 100vw !important;
+}

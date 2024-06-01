@@ -1,0 +1,31 @@
+.footerContainer {
+  margin: 0;
+  padding: 0;
+  background-color: #02012b;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Para posicionar los elementos al principio y al final del contenedor */
+  padding: 0 50px; /* Reducir el padding izquierdo y derecho */
+}
+
+.iconosContainer {
+  display: flex;
+}
+
+.logoFooter {
+  padding-left: 10px;
+  padding-right: 30px;
+  height: 80px !important;
+  width: auto !important;
+}
+
+.icono {
+  color: #02012b;
+  background-color: white;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 7px;
+  width: 50px !important;
+  height: 50px !important;
+}

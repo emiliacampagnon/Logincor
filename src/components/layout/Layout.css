@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contentLayout {
+  height: auto;
+  align-items: center !important;
+  justify-content: center !important;
+  justify-items: center;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  max-width: 100% !important;
+  background-color: white;
+}
