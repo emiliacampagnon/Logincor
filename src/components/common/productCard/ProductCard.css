@@ -23,6 +23,13 @@
   padding: 15px !important;
   border-radius: 15px !important;
 }
+.contenedorImgCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
 .imgCard {
   width: 200px;
   height: 200px;
@@ -34,6 +41,7 @@
   padding: 5px;
 }
 .typo {
+  font-size: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,9 +49,59 @@
   color: white !important;
   padding: 2px;
 }
+.typo2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white !important;
+  padding: 2px;
+  font-size: 25px;
+}
 .buttonCard {
   background-color: white !important;
   color: black !important;
   border: none !important;
   width: 150px !important;
+}
+.contenedorTextoCard {
+  margin: 5px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  .cardContainer {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    width: 180px !important;
+    height: 200px !important;
+    margin: 2px;
+  }
+  .cardCard {
+    width: 180px;
+    height: 200px;
+    margin: 5px !important;
+  }
+  .contenedorImgCard {
+    width: 80px;
+    height: 80px;
+    padding: 2px;
+    margin-bottom: 10px;
+  }
+  .imgCard {
+    width: 60px !important;
+    height: 60px;
+  }
+  .typo {
+    font-size: 12px !important;
+    margin-bottom: 5px !important;
+  }
+  .typo2 {
+    font-size: 8px !important;
+  }
+  .contenedorTextoCard {
+    margin: 2px !important;
+    padding: 2px !important;
+  }
 }

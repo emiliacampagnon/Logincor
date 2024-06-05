@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedorMapaOficina {
+  width: 250px !important;
+  height: 250px !important;
+  margin: 5px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.mapaOficina {
+  width: 200px !important;
+  height: 200px !important;
+}
+@media only screen and (max-width: 480px) {
+  .contenedorMapaOficina {
+    width: 150px !important;
+    height: 180px !important;
+  }
+  .mapaOficina {
+    width: 50px !important;
+  }
+}

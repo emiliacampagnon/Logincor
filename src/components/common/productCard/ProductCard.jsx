@@ -13,9 +13,11 @@ const ProductCard = ({ title, description, img, id }) => {
   return (
     <div className="cardContainer">
       <Card className="cardCard">
-        <CardMedia image={img} title="imagen producto" className="imgCard" />
+        <div className="contenedorImgCard">
+          <CardMedia image={img} title="imagen producto" className="imgCard" />
+        </div>
 
-        <CardContent>
+        <CardContent className="contenedorTextoCard">
           <Typography
             className="typo"
             gutterBottom
@@ -24,11 +26,10 @@ const ProductCard = ({ title, description, img, id }) => {
           >
             {title}
           </Typography>
-          <Typography className="typo" variant="body2" color="text.secondary">
+          <Typography className="typo2" variant="body2" color="text.secondary">
             {description}
           </Typography>
         </CardContent>
-        <CardActions></CardActions>
       </Card>
     </div>
   );

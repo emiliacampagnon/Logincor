@@ -43,3 +43,19 @@ h1 {
   justify-content: center;
   flex-direction: column;
 }
+
+@media only screen and (max-width: 480px) {
+  .contenedorTitulo {
+    width: 400px !important;
+    height: 50px !important;
+    margin: 5px !important;
+    margin-top: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .nuestrosServicios {
+    width: 200px;
+    margin: 1px !important;
+  }
+}

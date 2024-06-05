@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .contenedorTotal2 {
   width: 95vw;
   height: auto;
@@ -25,11 +26,13 @@
   align-items: center;
   border-radius: 15px;
 }
+
 .nosotrosImg2 {
   margin-top: 20px;
   margin-bottom: 30px;
   width: 500px;
 }
+
 .contenedorCards2 {
   width: 90vw;
   height: auto;
@@ -40,12 +43,14 @@
   justify-content: center !important;
   margin: 20px;
 }
+
 .cardGeneral2 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
+
 .cardCard2 {
   width: 80vw !important;
   min-height: 300px !important;
@@ -56,6 +61,15 @@
   flex-direction: row;
   margin: 20px;
   border-radius: 15px;
+  transition: transform 0.3s ease-in-out; /* Añadimos una transición suave */
+}
+
+.cardCard2:hover {
+  transform: scale(1.05); /* Aumenta el tamaño en un 5% */
+}
+
+.imagenCard2 {
+  width: 200px;
 }
 
 .imgImg2 {
@@ -67,22 +81,25 @@
   font-size: 25px;
   text-align: justify;
   margin: 80px 200px;
+  line-height: 40px;
 }
+
 .texto2 {
   text-align: left;
   color: white;
   margin: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
+
 .texto3 {
   text-align: justify;
   font-size: larger;
   margin: 5px 40px;
   line-height: 35px;
-
   color: white;
   font-weight: 250;
 }
+
 .texto4 {
   text-align: justify;
   font-size: large;
@@ -91,6 +108,7 @@
   font-weight: 250;
   color: white;
 }
+
 .texto5 {
   text-align: justify;
   font-size: 20px;
@@ -98,4 +116,54 @@
   line-height: 35px;
   font-weight: 450;
   color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  .contenedorCards2 {
+    width: 450px;
+    margin: 2px;
+  }
+  .cardGeneral2 {
+    width: 400px;
+  }
+  .texto1 {
+    font-size: 15px;
+    margin: 15px 5px;
+    line-height: 30px;
+  }
+  .cardCard2 {
+    width: 400px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .imagenCard2 {
+    width: 100px;
+    margin: 10px;
+  }
+
+  .imgImg2 {
+    width: 80px;
+    margin: 10px;
+  }
+  .texto2 {
+    text-align: center;
+    margin: 2px;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .texto3 {
+    font-size: 15px;
+    margin: 10px;
+    line-height: 25px;
+  }
+  .texto4 {
+    font-size: 12px;
+    margin: 10px;
+    line-height: 20px;
+  }
+  .texto5 {
+    font-size: 15px;
+    margin: 5px 10px;
+    line-height: 20px;
+  }
 }

@@ -19,10 +19,11 @@
   border-radius: 15px;
   height: 500px;
   width: 700px;
+  cursor: pointer;
 }
 .destinosH1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   margin: 30px !important;
   margin-bottom: 90px !important;
 }
@@ -46,34 +47,41 @@
 .form-select {
   background-color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer !important;
 }
 
 /* Estilos para react-select */
 .react-select__control {
   background-color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer !important ;
 }
 
 .react-select__option {
-  padding: 15px; /* Incrementa la separación vertical */
+  padding: 15px;
+  cursor: pointer !important;
 }
 
 .react-select__option--is-focused {
   background-color: #02012b;
   color: white;
+  cursor: pointer !important;
 }
 
 .react-select__option--is-selected {
   background-color: #02012b;
   color: white;
+  cursor: pointer;
 }
 
 .react-select__dropdown-indicator {
   display: none !important;
+  cursor: pointer !important;
 }
 
 .react-select__indicator-separator {
   display: none !important;
+  cursor: pointer !important;
 }
 
 .nuestrosDestinos {
@@ -103,14 +111,19 @@
 }
 
 .contenedorTitulo2 {
+  margin-top: 70px !important;
   margin: 30px;
-  display: flex;
+  display: flex !important;
   align-items: center !important;
   justify-content: center !important;
   border-radius: 15px;
   height: 50px;
   width: 560px;
   background-color: white !important;
+  transition: transform 0.3s ease;
+}
+.contenedorTitulo2:hover {
+  transform: scale(1.05);
 }
 .cotizacion {
   width: 300px;
@@ -120,4 +133,63 @@
 .whatsappIcon {
   color: #02012b;
   font-size: 30px !important;
+}
+@media only screen and (max-width: 480px) {
+  .contenedorTitulo {
+    width: 400px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .nuestrosDestinos {
+    width: 200px;
+    margin: 2px;
+  }
+  .destinosH1 {
+    font-size: 20px;
+    margin: 40px 10px !important;
+  }
+  .contenedorLocalidades {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    width: 400px !important;
+  }
+  .mapaImg {
+    width: 150px !important;
+    height: auto !important;
+  }
+  .contenedorLabel {
+    width: 400px !important;
+    height: 420px !important;
+    margin: 40px 10px !important;
+    padding: 15px 20px;
+  }
+  .textosLabel {
+    font-size: 15px;
+  }
+  .contenedorTitulo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px !important;
+    height: 40px !important;
+    margin: 5px !important;
+
+    margin-top: 30px !important;
+  }
+  .cotizacion {
+    width: 220px !important;
+  }
+  .whatsappIcon {
+    font-size: 20px !important;
+  }
+  .textoSeleccionado {
+    font-size: 12px;
+
+    margin-top: 35px !important;
+  }
 }

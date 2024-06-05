@@ -17,6 +17,7 @@ import { serviciosMock } from "./serviciosMock"; // Importa tus datos de servici
 import ProvinciasLocalidades from "./components/pages/localidades/localidades.jsx";
 import QuienesSomos from "./components/pages/nosotros/quienesSomos.jsx";
 import Flota from "./components/pages/flota/Flota.jsx";
+import Contacto from "./components/pages/contacto/Contacto.jsx";
 
 const App = () => {
   const [showContent, setShowContent] = useState(false);
@@ -78,6 +79,7 @@ const App = () => {
               <Route path="/Destinos" element={<ProvinciasLocalidades />} />
               <Route path="/QuienesSomos" element={<QuienesSomos />} />
               <Route path="/Flota" element={<Flota />} />
+              <Route path="/Contacto" element={<Contacto />} />
 
               <Route path="*" element={<h1>Error 404</h1>} />
             </Route>

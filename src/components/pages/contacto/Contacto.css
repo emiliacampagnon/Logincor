@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedorDirecciones {
+  width: 800px !important;
+  background-color: #02012b;
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.contenedorIndividual {
+  width: 800px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 20px;
+}
+.contenedorTextos {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.texto1Direcciones {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.texto2Direcciones {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+.botonMapaContacto {
+  width: 150px;
+  background-color: white !important;
+  color: #02012b !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  font-style: italic !important;
+  text-transform: none !important;
+  transition: transform 0.3s ease;
+}
+.botonMapaContacto:hover {
+  background-color: #02012b;
+  color: white;
+  border: 1px solid white;
+  transform: scale(1.1);
+}
+.contenedorMapa {
+  width: 350px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenedorBoton {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contenedorImgContacto {
+  margin-top: 40px !important;
+  margin-bottom: 30px !important;
+  margin: 20px;
+  width: 600px;
+  height: 70px !important;
+  background-color: #02012b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.comunicateConNosotros {
+  width: 400px;
+}
+
+.contenedorContacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media only screen and (max-width: 480px) {
+  .contenedorImgContacto {
+    width: 400px;
+    height: 50px !important;
+    margin: 20px !important;
+  }
+  .comunicateConNosotros {
+    width: 250px;
+  }
+  .contenedorDirecciones {
+    width: 350px !important;
+    margin: 5px !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .contenedorIndividual {
+    width: 300px !important;
+    margin: 5px;
+    padding: 5px;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .contenedorTextos {
+    width: 350px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .texto1Direcciones {
+    font-size: 20px;
+    margin: 2px;
+    margin-bottom: 15px;
+  }
+  .texto2Direcciones {
+    font-size: 14px;
+    margin: 2px;
+  }
+  .contenedorMapa {
+    width: 250px !important;
+  }
+  .botonMapaContacto {
+    width: 110px;
+    height: 30px !important;
+    font-size: 12px !important;
+    padding: 1px !important;
+    margin: 5px !important;
+  }
+}

@@ -92,7 +92,6 @@ const data = {
     "Guillermo E. Hudson",
     "Haedo",
     "Hurlingham",
-
     "Ingeniero Alán",
     "Ingeniero Maschwitz",
     "Ingeniero Pablo Nogues",
@@ -109,7 +108,6 @@ const data = {
     "La Cumbre",
     "La Emilia",
     "La estrella",
-
     "La Lucila",
     "La Matanza",
     "La Plata",
@@ -130,7 +128,6 @@ const data = {
     "Los Polvorines",
     "Los Troncos del Talar",
     "Luis Guillón",
-
     "Luján",
     "Manuel Alberti",
     "Manuel B. Gonnet Estafeta",
@@ -165,7 +162,6 @@ const data = {
     "Presidente Derqui",
     "Punta Alta",
     "Punta Lara",
-
     "Quilmes",
     "Rafael Calzada",
     "Ramallo",
@@ -177,14 +173,11 @@ const data = {
     "Rincón de Milberg",
     "Ringuelet",
     "Salta",
-
     "Saenz Peña",
     "San Andrés",
     "San Andrés de Giles",
-
     "San Antonio de Areco",
     "San Antonio de Padua",
-
     "San Fernando",
     "San Francisco Solano",
     "San Isidro",
@@ -420,6 +413,7 @@ const data = {
     "Villa Rumipal",
     "Villa San Nicolás",
     "Villa Santa Rosa",
+    "Villa Soldati",
     "Wenceslao Escalante",
     "Yacanto de Calamuchita",
     "Yocsina",
@@ -476,20 +470,7 @@ const data = {
   "La Rioja": ["Chamical", "Chilecito", "La Rioja"],
   Mendoza: ["Consultar Localidades"],
   Misiones: ["Posadas", "Villafañe"],
-  Neuquén: [
-    "Alto Comedero",
-    "El Carmen",
-    "Fraile Pintado",
-    "La Quiaca",
-    "Ledesma",
-    "Libertador General San Martín",
-    "Monterrico",
-    "Palpalá",
-    "Perico",
-    "San Antonio",
-    "San Pedro",
-    "San Salvador de Jujuy",
-  ],
+  Neuquén: ["Consultar Localidades"],
   "San Luis": ["Consultar Localidades"],
   "San Juan": ["Consultar Localidades"],
   "Santa Fe": [
@@ -528,7 +509,6 @@ const data = {
     "La Criolla",
     "Las Parejas",
     "Las Rosas",
-
     "Las Toscas",
     "Las Tunas",
     "Los Molinos",
@@ -558,7 +538,6 @@ const data = {
     "San Jerónimo del Sauce",
     "San Jerónimo Norte",
     "San Jerónimo Sur",
-
     "San Jorge",
     "San José de la Esquina",
     "San Justo",

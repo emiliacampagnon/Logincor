@@ -18,6 +18,11 @@
   padding-right: 30px;
   height: 80px !important;
   width: auto !important;
+  transition: transform 0.3s ease-in-out !important;
+}
+.logoFooter:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .icono {
@@ -28,4 +33,25 @@
   padding: 7px;
   width: 50px !important;
   height: 50px !important;
+  transition: transform 0.3s ease-in-out !important;
+}
+.icono:hover {
+  transform: scale(1.1);
+}
+@media only screen and (max-width: 480px) {
+  .footerContainer {
+    width: 100vw;
+    height: 100px;
+  }
+  .logoFooter {
+    width: 180px !important;
+    height: auto !important;
+    margin-left: -20px;
+  }
+  .icono {
+    width: 30px !important;
+    height: 30px !important;
+    padding: 2px;
+    margin: 5px;
+  }
 }

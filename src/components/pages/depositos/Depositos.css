@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 .Container {
-  width: 90%;
-
+  width: 80%;
   background-color: #02012b;
   display: flex;
   justify-content: center;
@@ -19,19 +18,17 @@
   align-items: center;
   justify-content: center;
   padding: 10px !important;
-
   flex-direction: row;
 }
 .nuestrosDepositos {
-  margin-top: 20px;
-  margin-bottom: 30px;
-  width: 500px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 400px;
 }
 .cardMapas {
   background-color: white;
   margin: 30px;
-  width: 450px !important;
-  height: 650px;
+  width: 350px !important;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -47,19 +44,19 @@
 }
 .h2Depositos {
   font-size: 30px;
-  margin: 0px;
+  margin: 5px;
   color: #02012b;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 .h3Depositos {
   font-size: 20px;
-  margin: 2px;
+  margin: 0px;
   color: #02012b;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 .h4Depositos {
   font-size: 20px;
-  margin: 2px;
+  margin: 0px;
   color: #02012b;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
@@ -68,6 +65,56 @@
   margin: 20px !important;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
   font-style: italic !important;
-
   text-transform: none !important;
+  transition: transform 0.3s ease;
+  cursor: pointer !important; /* Asegura que el cursor cambie a una mano */
+}
+.botonMapa:hover {
+  background-color: white !important;
+  color: #02012b;
+  cursor: pointer !important; /* Asegura que el cursor cambie a una mano en el estado hover */
+  transform: scale(1.1);
+}
+@media only screen and (max-width: 480px) {
+  .Container {
+    width: 400px;
+    height: 800px;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .nuestrosDepositos {
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: -3px;
+  }
+  .contenedorMapas {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .cardMapas {
+    width: 250px !important;
+    height: 350px;
+    margin: 5px;
+  }
+  .textosMaps {
+    width: 150px;
+    margin-top: 10px;
+  }
+  .h2Depositos {
+    font-size: 17px;
+  }
+  .h3Depositos {
+    font-size: 12px;
+  }
+  .h4Depositos {
+    font-size: 12px;
+  }
+  .botonMapa {
+    width: 130px !important;
+    font-size: 12px !important;
+    margin: 8px !important;
+    margin-bottom: 15px !important;
+  }
 }

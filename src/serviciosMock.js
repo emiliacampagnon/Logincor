@@ -32,7 +32,7 @@ export let serviciosMock = [
     description5: "• Seguimiento online de tu envío.",
     description6: "• Monitoreo satelital.",
     description7: "• Atención humana y personalizada.",
-    img: "https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Cargas%20Completas.png?alt=media&token=d0ee3223-e148-40c6-85b6-372f5d2fa1ed",
+    img: "https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Cargas%20Completas%202.png?alt=media&token=66e2aea6-d031-446d-a0c6-1c2246d7387f",
   },
   {
     id: 4,

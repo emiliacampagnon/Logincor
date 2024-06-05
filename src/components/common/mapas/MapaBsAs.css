@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedorMapaBsAs {
+  width: 200px !important;
+  height: 200px !important;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mapaBsAs {
+  width: 200px !important;
+  height: 200px !important;
+}
+@media only screen and (max-width: 480px) {
+  .contenedorMapaBsAs {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}

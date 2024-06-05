@@ -35,16 +35,6 @@ const ItemList = ({ items, error }) => {
       {items.map(({ id, title, description, img }) => {
         return (
           <ProductCard
-            style={{
-              width: "95%",
-              display: "flex",
-              flexDirection: "row",
-              flexWrap: "wrap",
-              alignItems: "center",
-              justifyContent: "space-evenly",
-              padding: "10px",
-              margin: "10px",
-            }}
             key={id}
             title={title}
             description={description}

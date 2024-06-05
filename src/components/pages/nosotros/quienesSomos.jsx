@@ -16,11 +16,10 @@ const QuienesSomos = () => {
       <div className="contenedorCards2">
         <div className="cardGeneral2">
           <h1 className="texto1">
-            En Logincor, nos enorgullecemos de ofrecer servicios de transporte y
-            logística de primera calidad en todo el país. Con 30 años de
-            experiencia en el sector, hemos construido una reputación sólida
-            basada en la confiabilidad, la eficiencia y la seguridad de nuestros
-            servicios.
+            En Logincor ofrecemos servicios de transporte y logística de primera
+            calidad en todo el país con más 30 años de experiencia en el sector.
+            Hemos construido una reputación sólida basada en la confiabilidad,
+            la eficiencia y la seguridad de nuestros servicios.
           </h1>
           <div className="cardCard2">
             <div className="imagenCard2">
@@ -34,13 +33,13 @@ const QuienesSomos = () => {
             <CardContent>
               <h2 className="texto2">Misión</h2>
               <h3 className="texto3">
-                En Transporte y Logística Córdoba, nuestra misión es
-                proporcionar servicios de transporte y logística de alta calidad
-                en toda la provincia de Córdoba. Nos comprometemos a garantizar
-                entregas rápidas, seguras y eficientes, apoyados en una flota
-                moderna y un equipo humano altamente capacitado. Nuestro
-                objetivo es superar las expectativas de nuestros clientes,
-                ofreciendo soluciones personalizadas y un servicio excepcional.
+                En Logincor nuestra misión es proporcionar servicios de
+                transporte y logística de alta calidad en todo el país. Nos
+                comprometemos a garantizar entregas rápidas, seguras y
+                eficientes, apoyados en una flota moderna y un equipo humano
+                altamente capacitado. Nuestro objetivo es superar las
+                expectativas de nuestros clientes, ofreciendo soluciones
+                personalizadas y un servicio excepcional.
               </h3>
             </CardContent>
           </div>
@@ -57,7 +56,7 @@ const QuienesSomos = () => {
               <h2 className="texto2">Visión</h2>
               <h3 className="texto3">
                 Nuestra visión es ser la empresa líder en transporte y logística
-                en Córdoba, reconocida por nuestra confiabilidad, innovación y
+                en Argentina, reconocida por nuestra confiabilidad, innovación y
                 excelencia en el servicio. Aspiramos a crecer y adaptarnos
                 continuamente a las necesidades cambiantes del mercado,
                 implementando tecnologías de vanguardia y prácticas sostenibles.
@@ -99,7 +98,7 @@ const QuienesSomos = () => {
               <h3 className="texto5">• Seguridad en la Carga:</h3>
               <h4 className="texto4">
                 Implementamos rigurosos protocolos de seguridad para garantizar
-                que su mercancía llegue a su destino en perfectas condiciones.
+                que su mercadería llegue a su destino en perfectas condiciones.
               </h4>
               <h3 className="texto5">• Capital Humano:</h3>
               <h4 className="texto4">

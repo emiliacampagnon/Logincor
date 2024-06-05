@@ -13,7 +13,7 @@
 }
 .detailCard {
   background-color: #02012b !important;
-  width: 600px !important;
+  width: 700px !important;
   height: 100px;
   display: flex !important;
   flex-direction: row;
@@ -24,15 +24,20 @@
 }
 
 .detailImgCard {
-  width: 80px;
-  height: 80px;
+  width: 70px !important;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px 30px;
 }
 .detailTypo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
   font-size: 30px !important;
   color: white !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .detailTextContainer {
@@ -40,7 +45,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: left;
-  width: 70vw;
+  width: 700px;
   min-height: 60vh;
   background-color: #d0e0ff48;
   color: #02012b;
@@ -50,6 +55,43 @@
   margin: 20px;
 }
 .detailH3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
   margin: 20px !important;
   margin-left: 50px !important;
+}
+.cardContentServicios {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 5px !important;
+  margin-left: 10px !important;
+}
+@media only screen and (max-width: 480px) {
+  .detailContainer {
+    width: 100vw;
+  }
+  .detailCard {
+    width: 400px !important;
+    height: 50px;
+  }
+  .detailTypo {
+    font-size: 18px !important;
+  }
+  .detailImgCard {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin: 10px !important;
+  }
+  .detailTextContainer {
+    width: 400px !important;
+    margin: 5px !important;
+  }
+  .detailH3 {
+    font-size: 12px !important;
+    margin: 10px !important;
+  }
 }

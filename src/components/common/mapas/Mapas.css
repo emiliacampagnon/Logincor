@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedorMapaCordoba {
+  width: 200px !important;
+  height: 200px !important;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mapaCordoba {
+  width: 200px !important;
+  height: 200px !important;
+}
+@media only screen and (max-width: 480px) {
+  .contenedorMapaCordoba {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}

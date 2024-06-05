@@ -1,15 +1,15 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import "./MapaBsAs.css";
+import "./MapaOficina.css";
 
-const MapaBsAs = () => {
-  const position = [-34.6644, -58.4348]; // Latitud y longitud de la ubicación central
+const MapaOficina = () => {
+  const position = [-31.3565004, -64.2172738]; 
 
   return (
-    <MapContainer center={position} zoom={13} className="contenedorMapaBsAs">
+    <MapContainer center={position} zoom={13} className="contenedorMapaOficina">
       <TileLayer
-        className="mapaBsAs"
+        className="mapaOficina"
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
@@ -22,4 +22,4 @@ const MapaBsAs = () => {
   );
 };
 
-export default MapaBsAs;
+export default MapaOficina;

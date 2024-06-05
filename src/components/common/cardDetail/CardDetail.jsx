@@ -21,11 +21,10 @@ const CardDetail = ({
           title={title}
           className="detailImgCard"
         />
-        <CardContent>
+        <CardContent className="cardContentServicios">
           <Typography
             underline="none"
             className="detailTypo"
-            variant="h5"
             component="div"
             style={{ textDecoration: "none !important" }}
           >

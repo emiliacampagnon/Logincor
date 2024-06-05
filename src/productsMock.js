@@ -3,7 +3,7 @@ export let products = [
     title: "Velocidad en tus envios",
     description:
       "Envíos Córdoba - Buenos Aires en 24hs. Servicio puerta a puerta.",
-    img: "https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/fast%20truck%20blanco.png?alt=media&token=61dfeb14-2d45-4563-ade0-11776727d4d1",
+    img: "https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/fast%20truck%20blanco.png?alt=media&token=369a7d16-0206-44dd-985d-1fed88bfaa93",
   },
   {
     title: "Tu carga segura",

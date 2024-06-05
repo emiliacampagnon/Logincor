@@ -23,7 +23,9 @@ const Depositos = () => {
             <p className="h4Depositos">0351 - 7000710</p>
             <p className="h4Depositos">Horarios: 8:00 a 17:00</p>
           </div>
-          <Mapa />
+          <div className="contenedorMapaCordoba">
+            <Mapa />
+          </div>
           <Button
             className="botonMapa"
             component={Link}
@@ -41,7 +43,9 @@ const Depositos = () => {
             <p className="h4Depositos">011 - 52639815</p>
             <p className="h4Depositos">Horarios: 8:00 a 17:00</p>
           </div>
-          <MapaBsAs />
+          <div className="contenedorMapaCordoba">
+            <MapaBsAs />
+          </div>
           <Button
             className="botonMapa"
             component={Link}

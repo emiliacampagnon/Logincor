@@ -17,7 +17,7 @@ export const Footer = () => {
       </Link>
       <div className="iconosContainer">
         <div>
-          <Link to="https://wa.me/5493517078383" target="_blank">
+          <Link to="https://wa.link/wixh9n" target="_blank">
             <WhatsAppIcon className="icono" />
           </Link>
         </div>

@@ -56,3 +56,42 @@
 .navbar-brand img:hover {
   transform: scale(1.1);
 }
+
+@media only screen and (max-width: 480px) {
+  .navbarContainer {
+    width: 100vw !important;
+    height: 30px !important;
+    margin: 0px;
+    padding: 0px;
+  }
+  .logoLogincor {
+    width: 180px;
+    margin: 2px;
+  }
+  .nav-link {
+    font-size: 10px;
+    width: 70px;
+    margin: 2px;
+  }
+  .pages {
+    width: 100vw;
+    height: 40px;
+    margin: 0px;
+    margin-top: -50px;
+  }
+  .navbar-nav {
+    width: 100vw !important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 5px;
+  }
+}

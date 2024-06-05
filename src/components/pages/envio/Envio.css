@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .segui {
-  height: 60px;
+  height: 50px;
   background-color: #02012b;
   display: flex;
   align-items: center;
@@ -21,6 +21,10 @@
   margin-top: 30px;
   margin-bottom: 5px;
   border-radius: 50px;
+  transition: color 0.3s ease-in-out;
+}
+.seguiContainer:hover {
+  transform: scale(1.1);
 }
 .containerPrincipal {
   display: flex;
@@ -35,4 +39,30 @@
 }
 h5 {
   color: #02012b;
+}
+
+@media only screen and (max-width: 480px) {
+  .containerPrincipal {
+    width: 100vw;
+  }
+  .seguiContainer {
+    width: 400px;
+    height: 50px;
+    transition: color 0.3s ease-in-out;
+  }
+  .seguiContainer:hover {
+    transform: scale(1.05);
+  }
+  .segui {
+    margin: 2px;
+    width: 150px;
+    height: auto;
+  }
+  .searchIcon {
+    font-size: 30px !important;
+  }
+  h5 {
+    font-size: 15px;
+    margin: 5px;
+  }
 }
