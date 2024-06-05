@@ -69,18 +69,18 @@
     margin: 2px;
   }
   .nav-link {
-    font-size: 10px;
-    width: 70px;
-    margin: 2px;
+    font-size: 9px;
+    width: 50px;
+    margin: 4px;
   }
   .pages {
-    width: 100vw;
+    width: 390px !important;
     height: 40px;
     margin: 0px;
     margin-top: -50px;
   }
   .navbar-nav {
-    width: 100vw !important;
+    width: 390px !important;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

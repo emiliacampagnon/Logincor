@@ -136,7 +136,6 @@
 }
 @media only screen and (max-width: 480px) {
   .contenedorTitulo {
-    width: 400px !important;
     height: 50px !important;
     margin-top: 20px !important;
     display: flex !important;
@@ -148,8 +147,8 @@
     margin: 2px;
   }
   .destinosH1 {
-    font-size: 20px;
-    margin: 40px 10px !important;
+    font-size: 18px;
+    margin: 30px 10px !important;
   }
   .contenedorLocalidades {
     display: flex;
@@ -163,7 +162,7 @@
     height: auto !important;
   }
   .contenedorLabel {
-    width: 400px !important;
+    width: 350px !important;
     height: 420px !important;
     margin: 40px 10px !important;
     padding: 15px 20px;
@@ -175,9 +174,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 350px !important;
+    width: 250px !important;
     height: 40px !important;
-    margin: 5px !important;
+    margin: 20px !important;
 
     margin-top: 30px !important;
   }

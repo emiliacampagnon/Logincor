@@ -120,19 +120,19 @@
 
 @media only screen and (max-width: 480px) {
   .contenedorCards2 {
-    width: 450px;
+    width: 350px;
     margin: 2px;
   }
   .cardGeneral2 {
-    width: 400px;
+    width: 350px;
   }
   .texto1 {
     font-size: 15px;
-    margin: 15px 5px;
+    margin: 15px 25px;
     line-height: 30px;
   }
   .cardCard2 {
-    width: 400px !important;
+    width: 350px !important;
     display: flex;
     flex-direction: column;
   }

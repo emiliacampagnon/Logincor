@@ -87,12 +87,12 @@
     flex-wrap: wrap !important;
     align-items: center !important;
     justify-content: center !important;
-    width: 220px !important;
+    width: 180px !important;
     height: 250px !important;
-    margin: 1px !important;
+    margin: 5px !important;
   }
   .linkServicios {
-    width: 220px !important;
+    width: 180px !important;
     height: 250px !important;
     display: flex;
     align-items: center;

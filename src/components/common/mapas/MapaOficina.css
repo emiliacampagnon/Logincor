@@ -17,7 +17,7 @@
 }
 @media only screen and (max-width: 480px) {
   .contenedorMapaOficina {
-    width: 150px !important;
+    width: 180px !important;
     height: 180px !important;
   }
   .mapaOficina {
