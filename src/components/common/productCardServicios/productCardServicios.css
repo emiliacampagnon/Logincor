@@ -4,12 +4,15 @@
   box-sizing: border-box;
 }
 .cardContainerServicios {
-  width: 400px !important;
-  height: 500px !important;
+  width: 300px !important;
+  height: 400px !important;
   border-radius: 20px;
-  display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr 1fr !important;
   transition: transform 0.3s ease;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
 .cardContainerServicios:hover {
   transform: scale(1.05);
@@ -17,15 +20,22 @@
 .cardCardServicios {
   cursor: pointer;
   background-color: #02012b !important;
-  width: 350px !important;
-  height: 400px;
+  width: 300px !important;
+  height: 400px !important;
   display: flex !important;
   flex-direction: column;
   align-items: center !important;
   justify-content: center !important;
-  margin: 15px !important;
-  padding: 15px !important;
+
+  padding: 5px !important;
   border-radius: 15px !important;
+  margin: 1px !important;
+}
+.linkServicios {
+  width: 300px !important;
+  height: 400px !important;
+  text-decoration: none;
+  padding: 5px;
 }
 .imgCardServicios {
   width: 200px;
@@ -76,51 +86,43 @@
   width: 200px;
   height: 200px;
 }
-
-.linkServicios {
-  text-decoration: none;
+.contenedorTextoServicios {
+  padding: 1px;
 }
+
 @media only screen and (max-width: 480px) {
   .cardContainerServicios {
+    width: 190px !important;
+    height: 220px !important;
     display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
-    align-items: center !important;
-    justify-content: center !important;
-    width: 180px !important;
-    height: 250px !important;
-    margin: 5px !important;
+    justify-content: space-evenly !important;
+    padding: 0;
+    margin: 10px 0;
   }
   .linkServicios {
-    width: 180px !important;
-    height: 250px !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0px !important;
+    width: 190px !important;
+    height: 220px !important;
+    display: flex !important;
+    justify-content: space-evenly !important;
   }
   .cardCardServicios {
-    width: 200px !important;
+    width: 190px !important;
     height: 220px !important;
-    margin: 0px !important;
   }
-  .contenedorImgServicios {
-    width: 120px;
-    height: 120px;
-    padding: 2px;
-    margin-bottom: 10px;
-  }
-  .imgCardServicios {
-    width: 100px !important;
-    height: 100px;
+  .contenedorTextoServicios {
+    padding: 1px !important;
   }
   .typoServicios {
-    font-size: 15px !important;
-    margin-bottom: 5px !important;
+    padding: 1px;
+    font-size: 20px !important;
+    margin: 5px !important;
   }
-
-  .contenedorTextoServicios {
-    margin: 2px !important;
-    padding: 2px !important;
+  .contenedorImgServicios {
+    width: 100px !important;
+    height: auto !important;
+  }
+  .imgCardServicios {
+    width: 95px !important;
+    height: auto;
   }
 }

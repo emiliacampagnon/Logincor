@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 .cardContainer {
-  width: 350px;
-  height: 500px !important;
+  min-width: 30vw !important;
+  height: auto !important;
   border-radius: 20px;
   display: flex !important;
   flex-direction: row !important;

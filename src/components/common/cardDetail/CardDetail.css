@@ -9,18 +9,19 @@
   flex-direction: column !important;
   display: flex !important;
   justify-content: center !important;
-  align-items: center;
+  align-items: center !important;
+  margin: 0px;
 }
 .detailCard {
   background-color: #02012b !important;
-  width: 700px !important;
-  height: 100px;
+  width: 480px !important;
+  height: 70px;
   display: flex !important;
   flex-direction: row;
   align-items: center !important;
   justify-content: center !important;
   border-radius: 15px !important;
-  margin: 20px;
+  margin: 20px 0px;
 }
 
 .detailImgCard {
@@ -29,11 +30,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 30px;
+  margin: 0px;
 }
 .detailTypo {
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-  font-size: 30px !important;
+  font-size: 25px !important;
   color: white !important;
   display: flex !important;
   align-items: center !important;

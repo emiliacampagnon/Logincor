@@ -11,6 +11,6 @@
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
-  max-width: 100% !important;
+  width: 100vw !important;
   background-color: white;
 }

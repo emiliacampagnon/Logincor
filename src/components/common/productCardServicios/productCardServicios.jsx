@@ -13,7 +13,7 @@ const ProductCardServicios = ({
     <div className="cardContainerServicios">
       <Link to={`/servicios/${id}`} className="linkServicios">
         <Card className="cardCardServicios">
-          <CardContent className="contenedorTextoServicios" >
+          <CardContent className="contenedorTextoServicios">
             <Typography
               underline="none"
               className="typoServicios"

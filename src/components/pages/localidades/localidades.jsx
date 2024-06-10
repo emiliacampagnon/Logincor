@@ -236,7 +236,7 @@ const data = {
     "Wilde",
     "Zárate",
   ],
-  Catamarca: ["Consultar Localidades"],
+  Catamarca: ["Belén", "Andalgala", "San Isidro", "Valle Viejo"],
   Chaco: [
     "Barranqueras",
     "Capitán Solari",
@@ -265,7 +265,18 @@ const data = {
     "Santa Sylvina",
     "Villa Ángela",
   ],
-  Chubut: ["Consultar Localidades"],
+  Chubut: [
+    "Comodoro Rivadavia",
+    "Esquel",
+    "Gaiman",
+    "Lago Puelo",
+    "Puerto Madryn",
+    "Rada Tilly",
+    "Rawson",
+    "Sarmiento",
+    "Trelew",
+    "Trevelin",
+  ],
   Córdoba: [
     "Alcira Gigena",
     "Almafuerte",
@@ -466,13 +477,55 @@ const data = {
     "San Pedro",
     "San Salvador de Jujuy",
   ],
-  "La Pampa": ["Consultar Localidades"],
+  "La Pampa": [
+    "Caleufu",
+    "Colonia Baron",
+    "Eduardo Castex",
+    "Intendente Alvear",
+    "Pico",
+    "Quemu Quemu",
+    "Rancul",
+    "Realico",
+    "Santa Rosa",
+  ],
   "La Rioja": ["Chamical", "Chilecito", "La Rioja"],
   Mendoza: ["Consultar Localidades"],
   Misiones: ["Posadas", "Villafañe"],
-  Neuquén: ["Consultar Localidades"],
+  Neuquén: [
+    "Centenario",
+    "Junín de los Andes",
+    "Neuquén",
+    "Piedra del Águila",
+    "Plottier",
+    "San Martín de los Andes",
+    "Villa la Angostura",
+    "Zapala",
+  ],
+  "Río Negro": [
+    "Allen",
+    "Cervantes",
+    "Choele Choel",
+    "Cinco Saltos",
+    "Cipolletti",
+    "Coronel Belisle",
+    "El Bolsón",
+    "Fernández Oro",
+    "General Conesa",
+    "General Roca",
+    "Ing. L.A. Huergo",
+    "Lamarque",
+    "Las Grutas",
+    "Luis Beltrán",
+    "Río Colorado",
+    "San Antonio Oeste",
+    "San Carlos de Bariloche",
+    "Sierra Grande",
+    "Viedma",
+    "Villa Regina",
+  ],
   "San Luis": ["Consultar Localidades"],
   "San Juan": ["Consultar Localidades"],
+  "Santa Cruz": ["Perito Moreno", "Las Heras", "Pico Truncado", "Río Gallegos"],
   "Santa Fe": [
     "Alvear",
     "Arequito",
@@ -597,6 +650,7 @@ const data = {
     "Quimilí",
     "Santiago del Estero",
   ],
+  "Tierra del Fuego": ["Río Grande", "Tolhuin", "Ushuaia"],
   Tucumán: [
     "Aguilar",
     "Alberdi",
@@ -741,8 +795,9 @@ const ProvinciasLocalidades = () => {
               )}
             </div>
 
-            <div className="contenedorTitulo2">
+            <div className="contenedorTitulo3">
               <a
+                className="linkPedi"
                 href={obtenerLinkWhatsApp()}
                 target="_blank"
                 rel="noopener noreferrer"

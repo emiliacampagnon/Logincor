@@ -2,7 +2,7 @@ import "./Flota.css";
 
 const Flota = () => {
   return (
-    <div className="contenedorTotal2">
+    <div className="contenedorTotal5">
       <div className="contenedorImg2">
         <img
           className="nosotrosImg2"

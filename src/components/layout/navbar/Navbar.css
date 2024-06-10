@@ -5,24 +5,44 @@
 }
 
 .navbarContainer {
+  width: 100vw !important;
   background-color: #02012b;
   display: flex !important;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center !important;
-  justify-content: center !important;
+  justify-content: space-between !important;
   min-height: 150px;
   padding: 20px;
 }
 
 .pages {
+  width: 70vw;
   display: flex !important;
   flex-direction: row !important;
-  justify-content: end !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 5px;
+  padding: 0px;
 }
-
+.navbar-nav {
+  width: 65vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw !important;
+  margin: 2px;
+}
 .logoLogincor {
-  margin: 10px;
-  width: 300px;
+  margin: 5px;
+  width: 18vw !important;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -63,9 +83,12 @@
     height: 30px !important;
     margin: 0px;
     padding: 0px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
   .logoLogincor {
-    width: 180px;
+    width: 20vw !important;
     margin: 2px;
   }
   .nav-link {
@@ -95,3 +118,55 @@
     margin: 5px;
   }
 }
+@media (min-width: 481px) and (max-width: 1420px) {
+  .navbarContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-nav {
+    width: 80vw !important;
+  }
+  .nav-link {
+    font-size: 1.2vw;
+    padding: 5px 4px !important;
+    margin: 1px;
+  }
+  .nav-link.active {
+    font-size: 1.3vw;
+  }
+}
+/* @media (min-width: 481px) and (max-width: 1300px) {
+  .navbarContainer {
+    width: 100vw !important;
+    padding: 10px !important;
+    padding-left: 50px !important;
+  }
+  .navbar-brand {
+    width: 30vw !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px !important;
+    padding: 0;
+  }
+  .pages {
+    width: 100vw !important;
+    margin: 5px !important;
+  }
+  .navbar-nav {
+    width: 95vw !important;
+    display: flex !important;
+    flex-direction: row !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-evenly;
+  }
+  .nav-link {
+    width: 10vw;
+    font-size: 12px;
+  }
+  .logoLogincor {
+    width: 20vw !important;
+    margin: 2px;
+  }
+} */

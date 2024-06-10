@@ -3,48 +3,59 @@
   padding: 0;
   box-sizing: border-box;
 }
+.nuestrosDestinos {
+  width: 300px;
+  margin: 10px;
+}
 .provincias-localidades {
-  min-height: 750px;
+  width: 100vw;
 }
 .contenedorLocalidades {
+  width: 100vw;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .contenedorLabel {
   display: flex;
   flex-direction: column !important;
   background-color: #02012b;
-  margin: 10px;
-  padding: 40px;
   border-radius: 15px;
-  height: 500px;
-  width: 700px;
+  height: auto;
+  width: 55vw;
   cursor: pointer;
+  margin: 15px 0px !important;
+  padding: 25px;
 }
 .destinosH1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: 30px !important;
   margin: 30px !important;
   margin-bottom: 90px !important;
 }
 .mapaImg {
-  width: 500px;
+  width: 30vw;
+  margin: 0px;
 }
 .textosLabel {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  margin: 15px 0px;
+  margin: 10px;
 }
 .textoSeleccionado {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 17px;
-  margin-top: 50px;
+  font-size: 15px;
+  margin: 20px 50px;
   text-align: center;
 }
 
 .form-select {
+  margin: 10px;
+  width: 50vw;
   background-color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer !important;
@@ -84,49 +95,31 @@
   cursor: pointer !important;
 }
 
-.nuestrosDestinos {
-  margin-top: 20px;
-  margin-bottom: 30px;
-  width: 350px;
-}
-.contenedorTitulo {
-  margin-top: 40px !important;
-  margin: 20px;
-  width: 600px;
-  height: 100px;
-  background-color: #02012b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-}
-.contenedorTotal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .pediContainer {
   border-radius: 15px !important;
 }
 
-.contenedorTitulo2 {
-  margin-top: 70px !important;
-  margin: 30px;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  border-radius: 15px;
-  height: 50px;
-  width: 560px;
-  background-color: white !important;
+.contenedorTitulo3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
   transition: transform 0.3s ease;
+  margin: 30px 0px;
+}
+.linkPedi {
+  width: 40vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px !important;
 }
 .contenedorTitulo2:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 .cotizacion {
-  width: 300px;
+  width: 20vw !important;
   background-color: white;
 }
 
@@ -147,7 +140,7 @@
     margin: 2px;
   }
   .destinosH1 {
-    font-size: 18px;
+    font-size: 17px !important;
     margin: 30px 10px !important;
   }
   .contenedorLocalidades {
@@ -155,40 +148,45 @@
     flex-direction: column !important;
     align-items: center;
     justify-content: center;
-    width: 400px !important;
+    width: 100vw !important;
   }
   .mapaImg {
     width: 150px !important;
     height: auto !important;
   }
   .contenedorLabel {
-    width: 350px !important;
-    height: 420px !important;
-    margin: 40px 10px !important;
-    padding: 15px 20px;
+    width: 90vw !important;
+    height: auto !important;
+    margin: 40px 5px !important;
   }
   .textosLabel {
+    margin: 10px 15px;
     font-size: 15px;
   }
-  .contenedorTitulo2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 250px !important;
-    height: 40px !important;
-    margin: 20px !important;
 
-    margin-top: 30px !important;
-  }
   .cotizacion {
-    width: 220px !important;
+    width: 50vw !important;
   }
   .whatsappIcon {
     font-size: 20px !important;
   }
   .textoSeleccionado {
     font-size: 12px;
-
+    margin: 10px;
     margin-top: 35px !important;
+  }
+  .form-select {
+    width: 80vw;
+    padding: 5px;
+    margin: 5px 15px;
+  }
+  .contenedorTitulo3 {
+    width: 85vw !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .linkPedi {
+    width: 70vw;
   }
 }
