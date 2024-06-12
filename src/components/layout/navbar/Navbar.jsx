@@ -56,7 +56,7 @@ function BasicExample() {
               location.pathname === "/QuienesSomos" ? "active" : ""
             }`}
           >
-            Quienes Somos
+            Nosotros
           </Link>
           <Link
             to="/Contacto"

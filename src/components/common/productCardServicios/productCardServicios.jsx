@@ -23,20 +23,6 @@ const ProductCardServicios = ({
             >
               {title}
             </Typography>
-            <Typography
-              className="typoServicios"
-              variant="body2"
-              color="text.secondary"
-            >
-              {description}
-            </Typography>
-            <Typography
-              className="typoServicios"
-              variant="body2"
-              color="text.secondary"
-            >
-              {description2}
-            </Typography>
           </CardContent>
           <div className="contenedorImgServicios">
             <CardMedia

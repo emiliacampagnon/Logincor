@@ -73,26 +73,26 @@
     width: 100vw;
   }
   .detailCard {
-    width: 400px !important;
-    height: 50px;
+    width: 70vw !important;
+    height: 40px !important;
   }
   .detailTypo {
-    font-size: 18px !important;
+    font-size: 12px !important;
   }
   .detailImgCard {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    width: 40px !important;
-    height: 40px !important;
-    margin: 10px !important;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px !important;
   }
   .detailTextContainer {
     width: 400px !important;
     margin: 5px !important;
   }
   .detailH3 {
-    font-size: 12px !important;
+    font-size: 11px !important;
     margin: 10px !important;
   }
 }

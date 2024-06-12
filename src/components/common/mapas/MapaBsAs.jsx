@@ -7,7 +7,13 @@ const MapaBsAs = () => {
   const position = [-34.6644, -58.4348]; // Latitud y longitud de la ubicación central
 
   return (
-    <MapContainer center={position} zoom={13} className="contenedorMapaBsAs">
+    <MapContainer
+      center={position}
+      zoom={13}
+      className="contenedorMapaBsAs"
+      zoomControl={false}
+      attributionControl={false}
+    >
       <TileLayer
         className="mapaBsAs"
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

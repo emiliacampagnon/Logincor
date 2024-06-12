@@ -4,10 +4,16 @@ import "leaflet/dist/leaflet.css";
 import "./MapaOficina.css";
 
 const MapaOficina = () => {
-  const position = [-31.3565004, -64.2172738]; 
+  const position = [-31.3565004, -64.2172738];
 
   return (
-    <MapContainer center={position} zoom={13} className="contenedorMapaOficina">
+    <MapContainer
+      center={position}
+      zoom={13}
+      className="contenedorMapaOficina"
+      zoomControl={false}
+      attributionControl={false}
+    >
       <TileLayer
         className="mapaOficina"
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

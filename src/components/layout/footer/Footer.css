@@ -8,7 +8,7 @@
   padding: 30px !important;
   background-color: #02012b;
   width: 100vw;
-  height: 22vh;
+  max-height: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between; /* Para posicionar los elementos al principio y al final del contenedor */
@@ -18,34 +18,33 @@
 .iconosContainer {
   display: flex;
   justify-content: space-evenly;
-  width: 25vw;
+  width: 18vw;
 }
 .containerLogoFooter {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 30vw !important;
+  justify-content: start;
+  width: 20vw !important;
+  margin: 2px;
 }
 .logoFooter {
-  padding-left: 10px;
-  padding-right: 30px;
-  height: auto !important;
-  width: 28vw !important;
-  transition: transform 0.3s ease-in-out !important;
+  margin: 5px;
+  width: 18vw !important;
+  transition: transform 0.3s ease-in-out;
 }
 .logoFooter:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .icono {
   color: #02012b;
   background-color: white;
   border-radius: 50px;
-  margin: 1vw;
-  padding: 1vw;
-  width: 4.5vw !important;
-  height: 4.5vw !important;
+  margin: 0.5vw;
+  padding: 0.6vw;
+  width: 4vw !important;
+  height: 4vw !important;
   transition: transform 0.3s ease-in-out !important;
 }
 .icono:hover {
@@ -55,16 +54,23 @@
   .footerContainer {
     width: 100vw;
     height: 100px;
+    padding: 10px !important;
+  }
+  .containerLogoFooter {
+    width: 25vw !important;
   }
   .logoFooter {
-    width: 180px !important;
+    width: 25vw !important;
     height: auto !important;
-    margin-left: -20px;
+  }
+  .iconosContainer {
+    margin: 10px;
+    width: 30vw;
   }
   .icono {
     width: 30px !important;
     height: 30px !important;
     padding: 2px;
-    margin: 5px;
+    margin: 2px;
   }
 }

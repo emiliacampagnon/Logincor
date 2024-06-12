@@ -15,10 +15,15 @@
   width: 200px !important;
   height: 200px !important;
 }
+.leaflet-control-zoom {
+  display: none !important;
+}
 @media only screen and (max-width: 480px) {
   .contenedorMapaOficina {
-    width: 180px !important;
-    height: 180px !important;
+    width: 100px !important;
+    height: 100px !important;
+    margin: 0px !important;
+    padding: 0px !important;
   }
   .mapaOficina {
     width: 50px !important;

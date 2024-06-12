@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 .nuestrosDestinos {
-  width: 300px;
+  height: 30px !important;
+  width: auto;
   margin: 10px;
 }
 .provincias-localidades {
@@ -141,7 +142,7 @@
   }
   .destinosH1 {
     font-size: 17px !important;
-    margin: 30px 10px !important;
+    margin: 20px 10px !important;
   }
   .contenedorLocalidades {
     display: flex;
@@ -158,6 +159,7 @@
     width: 90vw !important;
     height: auto !important;
     margin: 40px 5px !important;
+    padding: 5px;
   }
   .textosLabel {
     margin: 10px 15px;

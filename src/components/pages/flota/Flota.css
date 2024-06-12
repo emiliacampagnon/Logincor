@@ -23,7 +23,8 @@
 }
 
 .nosotrosImg2 {
-  width: 390px;
+  height: 40px !important;
+  width: auto;
   margin: 10px;
 }
 .contenedorFlota {
@@ -110,7 +111,7 @@
 
 @media only screen and (max-width: 480px) {
   .contenedorImg2 {
-    width: 330px !important;
+    width: 70vw !important;
     height: 50px !important;
     margin-top: 20px !important;
     display: flex !important;
@@ -123,7 +124,7 @@
     margin: 0px;
   }
   .contenedorTotal5 {
-    width: 100vw;
+    width: 100vw !important;
     margin: 10px 0px;
   }
   .contenedorFlota {

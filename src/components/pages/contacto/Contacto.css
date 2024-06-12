@@ -3,6 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+.contenedorContacto {
+  width: 100vw;
+  height: auto !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 10px;
+}
+.contenedorImgContacto {
+  margin: 10px !important;
+  width: 460px !important;
+  height: 62px !important;
+  background-color: #02012b;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 15px;
+}
+.comunicateConNosotros {
+  height: 30px !important;
+  width: auto;
+  margin: 10px;
+}
 .contenedorDirecciones {
   width: 800px !important;
   background-color: #02012b;
@@ -67,74 +91,72 @@
   align-items: center;
   justify-content: center;
 }
-.contenedorImgContacto {
-  margin-top: 40px !important;
-  margin-bottom: 30px !important;
-  margin: 20px;
-  width: 600px;
-  height: 70px !important;
-  background-color: #02012b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-}
-.comunicateConNosotros {
-  width: 400px;
-}
 
-.contenedorContacto {
-  margin: 10px 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 @media only screen and (max-width: 480px) {
+  .contenedorContacto {
+    width: 100vw !important;
+    height: auto;
+    margin: 10px 0px;
+  }
   .contenedorImgContacto {
-    width: 300px;
+    width: 70vw !important;
     height: 50px !important;
-    margin: 20px !important;
+
+    margin-top: 20px !important;
+    margin-bottom: 10px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
   .comunicateConNosotros {
-    width: 250px;
+    height: 26.7px !important;
+    width: auto !important;
+    margin: 5px !important;
+  }
+  .todasCards {
+    width: 100vw !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .contenedorDirecciones {
-    width: 350px !important;
+    width: 190px !important;
     margin: 5px !important;
     display: flex !important;
     flex-direction: column !important;
   }
   .contenedorIndividual {
-    width: 300px !important;
+    width: 190px !important;
     margin: 5px;
     padding: 5px;
     display: flex !important;
     flex-direction: column !important;
   }
   .contenedorTextos {
-    width: 350px;
-    margin: 10px;
+    width: 180px;
+    margin: 10px 0px;
     align-items: center;
     justify-content: center;
   }
   .texto1Direcciones {
-    font-size: 20px;
+    font-size: 15px;
     margin: 2px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
   .texto2Direcciones {
-    font-size: 14px;
+    font-size: 8px;
     margin: 2px;
   }
   .contenedorMapa {
-    width: 250px !important;
+    width: 180px !important;
   }
   .botonMapaContacto {
-    width: 110px;
-    height: 30px !important;
-    font-size: 12px !important;
+    width: 100px;
+    height: 25px !important;
+    font-size: 8px !important;
     padding: 1px !important;
-    margin: 5px !important;
+    margin: 8px !important;
   }
 }

@@ -7,11 +7,16 @@ const Mapa = () => {
   const position = [-31.35239, -64.198]; // Latitud y longitud de la ubicación central
 
   return (
-    <MapContainer className="contenedorMapaCordoba" center={position} zoom={13}>
+    <MapContainer
+      className="contenedorMapaCordoba"
+      center={position}
+      zoom={13}
+      zoomControl={false} // Desactiva los controles de zoom
+      attributionControl={false} // Desactiva la atribución de OpenStreetMap
+    >
       <TileLayer
         className="mapaCordoba"
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       />
       <Marker position={position}>
         <Popup>

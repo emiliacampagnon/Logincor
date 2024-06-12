@@ -5,8 +5,8 @@ const Carousel = () => {
     <div className="imagenSola">
       <img
         className="imgCamion"
-        src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/CAMION%20LOGINCOR%207-03.jpg?alt=media&token=b8b341bf-86fc-4699-aa3c-6c23a3e3f224"
-        alt="..."
+        src="https://res.cloudinary.com/dxzytrwpw/image/upload/v1718126619/CAMION_LOGINCOR_7-03_qybjrc.jpg"
+        alt=""
       />
     </div>
   );
