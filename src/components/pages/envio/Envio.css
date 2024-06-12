@@ -48,19 +48,21 @@ h5 {
   .containerPrincipal {
     width: 100vw;
     height: auto !important;
+    margin: 10px 0px;
   }
   .seguiContainer {
-    width: 50vw !important;
+    width: 65vw !important;
     height: auto !important;
     transition: color 0.3s ease-in-out;
-    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
   }
   .seguiContainer:hover {
     transform: scale(1.05);
   }
   .segui {
     margin: 8px;
-    width: 18vw !important;
+    width: 20vw !important;
     height: auto !important;
   }
   .searchIcon {

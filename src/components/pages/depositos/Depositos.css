@@ -88,9 +88,9 @@
     flex-direction: column !important;
   }
   .nuestrosDepositos {
-    width: 230px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    width: 200px;
+    margin-bottom: 5px;
+    margin-top: 15px;
   }
   .contenedorMapas {
     width: 380px !important;

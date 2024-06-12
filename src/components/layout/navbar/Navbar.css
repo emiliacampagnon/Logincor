@@ -83,14 +83,14 @@
     width: 100vw !important;
     height: auto !important;
     margin: 0px;
-    padding: 0px;
+    padding: 10px;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
   }
   .logoLogincor {
-    width: 20vw !important;
+    width: 30vw !important;
     margin: 2px;
   }
   .nav-link {
@@ -102,7 +102,7 @@
     display: flex !important;
     flex-direction: row;
     flex-wrap: nowrap !important;
-    margin: 0px !important;
+    margin: 10px 0px !important;
     width: 80vw !important;
     height: 20px !important;
   }
@@ -118,6 +118,7 @@
     height: 20px !important;
   }
   .navbar-brand {
+    width: 30vw !important;
     display: flex;
     align-items: center !important;
     justify-content: center !important;
