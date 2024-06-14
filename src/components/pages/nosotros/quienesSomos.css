@@ -120,7 +120,7 @@
 @media only screen and (max-width: 480px) {
   .contenedorTotal2 {
     width: 100vw !important;
-    margin: 10px 0px;
+    margin: 0px;
   }
   .contenedorImg2 {
     width: 70vw !important;
@@ -136,50 +136,58 @@
     margin: 1px !important;
   }
   .contenedorCards2 {
-    width: 350px;
-    margin: 2px;
+    width: 380px;
+    margin: 10px !important;
   }
   .cardGeneral2 {
-    width: 350px;
+    width: 360px;
   }
   .texto1 {
-    font-size: 15px;
-    margin: 15px 25px;
-    line-height: 30px;
+    font-size: 12px;
+    margin: 15px 20px;
+    line-height: 25px;
   }
   .cardCard2 {
-    width: 350px !important;
+    width: 330px !important;
+    margin: 10px !important;
     display: flex;
     flex-direction: column;
   }
   .imagenCard2 {
-    width: 100px;
-    margin: 10px;
+    width: 80px;
+    margin: 0px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
   }
 
   .imgImg2 {
-    width: 80px;
-    margin: 10px;
+    width: 60px;
+    margin: 5px;
   }
   .texto2 {
     text-align: center;
     margin: 2px;
-    font-size: 22px;
+    font-size: 14px;
     margin-bottom: 20px;
   }
   .texto3 {
-    font-size: 15px;
+    font-size: 11px;
     margin: 10px;
-    line-height: 25px;
+    line-height: 20px;
   }
   .texto4 {
     font-size: 12px;
-    margin: 10px;
+    margin: 5px 20px !important;
     line-height: 20px;
   }
   .texto5 {
-    font-size: 15px;
+    font-size: 12px !important;
     margin: 5px 10px;
     line-height: 20px;
+  }
+  .contenedorTextosNosotros {
+    width: 310px;
+    padding: 5px !important;
   }
 }

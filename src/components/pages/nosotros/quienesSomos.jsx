@@ -8,7 +8,7 @@ const QuienesSomos = () => {
       <div className="contenedorImg2">
         <img
           className="nosotrosImg2"
-          src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/nosotros-04.png?alt=media&token=510d241c-036f-476d-81b8-1867753919e6"
+          src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-06.png?alt=media&token=351856de-5cd1-4dad-b3c2-b45895eb0b1e"
           alt=""
         />
       </div>
@@ -30,7 +30,7 @@ const QuienesSomos = () => {
               />
             </div>
 
-            <CardContent>
+            <CardContent className="contenedorTextosNosotros">
               <h2 className="texto2">Misión</h2>
               <h3 className="texto3">
                 En Logincor nuestra misión es proporcionar servicios de

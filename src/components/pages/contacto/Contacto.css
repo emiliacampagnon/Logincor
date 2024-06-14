@@ -96,22 +96,21 @@
   .contenedorContacto {
     width: 100vw !important;
     height: auto;
-    margin: 10px 0px;
+    margin: 0px;
   }
   .contenedorImgContacto {
     width: 70vw !important;
-    height: 50px !important;
-
-    margin-top: 20px !important;
-    margin-bottom: 10px;
+    height: 10vw !important;
+    margin: 0px !important;
+    margin-top: 10px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
   }
   .comunicateConNosotros {
-    height: 26.7px !important;
+    height: 18px !important;
     width: auto !important;
-    margin: 5px !important;
+    margin: 1px !important;
   }
   .todasCards {
     width: 100vw !important;
@@ -120,43 +119,49 @@
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 10px 0px;
   }
   .contenedorDirecciones {
-    width: 190px !important;
+    width: 380px !important;
     margin: 5px !important;
     display: flex !important;
-    flex-direction: column !important;
+    flex-direction: row !important;
   }
   .contenedorIndividual {
-    width: 190px !important;
+    width: 380px !important;
     margin: 5px;
     padding: 5px;
     display: flex !important;
-    flex-direction: column !important;
+    flex-direction: row !important;
   }
   .contenedorTextos {
-    width: 180px;
-    margin: 10px 0px;
+    width: 200px;
+    margin: 10px 10px;
     align-items: center;
     justify-content: center;
   }
   .texto1Direcciones {
     font-size: 15px;
-    margin: 2px;
-    margin-bottom: 5px;
+    margin: 10px 0px !important;
   }
   .texto2Direcciones {
     font-size: 8px;
-    margin: 2px;
+    margin: 4px 0px;
   }
   .contenedorMapa {
-    width: 180px !important;
+    width: 140px !important;
+    margin: 10px !important;
+    padding: 0px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
   }
   .botonMapaContacto {
     width: 100px;
     height: 25px !important;
     font-size: 8px !important;
     padding: 1px !important;
-    margin: 8px !important;
+    margin: 4px !important;
   }
 }

@@ -11,7 +11,7 @@ const Contacto = () => {
       <div className="contenedorImgContacto">
         <img
           className="comunicateConNosotros"
-          src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/comunicate%20con%20nosotros-04.png?alt=media&token=27f5ef8a-4acd-43b7-a771-6654acbc15be"
+          src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-07.png?alt=media&token=6f951f96-48f6-4c61-a906-77e80416e64a"
           alt=""
         />
       </div>

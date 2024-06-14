@@ -13,7 +13,7 @@ const CardDetail = ({
   description7,
 }) => {
   return (
-    <div className="detailContainer">
+    <div className="contenedorTotal">
       <Card className="detailCard">
         <CardMedia
           component="img"

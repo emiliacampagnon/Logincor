@@ -38,6 +38,11 @@
   height: 420px;
   flex-wrap: nowrap;
   margin: 25px 20px;
+  cursor: pointer !important;
+  transition: transform 0.3s ease-in-out !important;
+}
+.cardMapas:hover {
+  transform: scale(1.05);
 }
 .textosMaps {
   display: flex;

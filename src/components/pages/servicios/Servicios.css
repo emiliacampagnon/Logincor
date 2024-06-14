@@ -9,7 +9,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 20px 10px;
 }
 .contenedorTitulo {
   margin: 10px !important;
@@ -45,20 +44,20 @@ h1 {
 @media only screen and (max-width: 480px) {
   .contenedorTitulo {
     width: 70vw !important;
-    height: auto !important;
-    margin: 5px !important;
+    height: 10vw !important;
+    margin: 0px !important;
     margin-top: 10px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
   }
   .nuestrosServicios {
-    height: 26.7px !important;
+    height: 18px !important;
     width: auto !important;
     margin: 1px !important;
   }
   .contenedorTotal {
     width: 100vw !important;
-    margin: 10px 0px;
+    height: auto !important;
   }
 }

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .contentLayout {
-  height: auto;
+  height: auto !important;
   align-items: center !important;
   justify-content: center !important;
   justify-items: center;

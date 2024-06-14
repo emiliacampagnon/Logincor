@@ -70,14 +70,19 @@
 }
 @media only screen and (max-width: 480px) {
   .detailContainer {
-    width: 100vw;
+    width: 100vw !important;
+    height: auto !important;
   }
   .detailCard {
     width: 70vw !important;
-    height: 40px !important;
+    height: 10vw !important;
+    margin: 10px 0px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
   .detailTypo {
-    font-size: 12px !important;
+    font-size: 11px !important;
   }
   .detailImgCard {
     display: flex !important;
@@ -88,7 +93,7 @@
     margin: 5px !important;
   }
   .detailTextContainer {
-    width: 400px !important;
+    width: 360px !important;
     margin: 5px !important;
   }
   .detailH3 {

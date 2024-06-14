@@ -7,7 +7,7 @@ const Servicios = ({ items, error }) => {
       <div className="contenedorTitulo">
         <img
           className="nuestrosServicios"
-          src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Nuestros%20servicios-04.png?alt=media&token=655cc38b-66c7-48f1-98a0-9e940af2d539"
+          src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-03.png?alt=media&token=ccf36ebd-f2ad-4834-a04e-b36f4e8d439f"
           alt=""
         />
       </div>

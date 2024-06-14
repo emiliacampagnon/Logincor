@@ -129,20 +129,14 @@
   font-size: 30px !important;
 }
 @media only screen and (max-width: 480px) {
-  .contenedorTitulo {
-    height: 50px !important;
-    margin-top: 20px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-  }
   .nuestrosDestinos {
-    width: 200px;
+    height: 18px !important;
+    width: auto !important;
     margin: 2px;
   }
   .destinosH1 {
-    font-size: 17px !important;
-    margin: 20px 10px !important;
+    font-size: 15px !important;
+    margin: 15px 10px !important;
   }
   .contenedorLocalidades {
     display: flex;
@@ -158,7 +152,7 @@
   .contenedorLabel {
     width: 90vw !important;
     height: auto !important;
-    margin: 40px 5px !important;
+    margin: 20px 5px !important;
     padding: 5px;
   }
   .textosLabel {
@@ -190,5 +184,8 @@
   }
   .linkPedi {
     width: 70vw;
+  }
+  .form-select {
+    font-size: 10px;
   }
 }
