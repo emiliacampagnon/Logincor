@@ -10,7 +10,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 20px 10px;
 }
 .contenedorImgContacto {
   margin: 10px !important;
@@ -21,6 +20,7 @@
   justify-content: center !important;
   align-items: center !important;
   border-radius: 15px;
+  margin-top: 20px !important;
 }
 .comunicateConNosotros {
   height: 30px !important;
@@ -32,10 +32,15 @@
   background-color: #02012b;
   display: flex;
   flex-direction: row;
-  margin: 40px;
+  margin: 20px;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.contenedorDirecciones:hover {
+  transform: scale(1.05);
 }
 .contenedorIndividual {
   width: 800px !important;
@@ -64,6 +69,7 @@
 
 .botonMapaContacto {
   width: 150px;
+  margin: 10px !important;
   background-color: white !important;
   color: #02012b !important;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;

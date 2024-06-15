@@ -18,6 +18,7 @@
   justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 .contenedorLabel {
   display: flex;
@@ -29,6 +30,10 @@
   cursor: pointer;
   margin: 15px 0px !important;
   padding: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+.contenedorLabel:hover {
+  transform: scale(1.05);
 }
 .destinosH1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -115,6 +120,11 @@
   align-items: center;
   justify-content: center;
   border-radius: 15px !important;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.linkPedi:hover {
+  transform: scale(1.05);
 }
 .contenedorTitulo2:hover {
   transform: scale(1.02);

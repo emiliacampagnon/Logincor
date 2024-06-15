@@ -20,10 +20,11 @@
   justify-content: center !important;
   align-items: center !important;
   border-radius: 15px;
+  margin-top: 20px !important;
 }
 
 .nosotrosImg2 {
-  height: 40px !important;
+  height: 30px !important;
   width: auto;
   margin: 10px;
 }
@@ -62,6 +63,11 @@
   border-radius: 15px;
   margin: 20px;
   padding: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.cardVehiculos:hover {
+  transform: scale(1.05);
 }
 .contenedorVehiculos {
   width: 35vw;
@@ -100,6 +106,11 @@
   align-items: center;
   justify-content: space-evenly !important;
   border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.contenedorAux:hover {
+  transform: scale(1.05);
 }
 .contenedorImgAux {
   width: 70vw;
@@ -172,7 +183,7 @@
   }
   .contenedorAux {
     width: 330px !important;
-    min-height: 190px !important;
+    min-height: 10px !important;
     margin: 10px 0px;
     padding: 10px !important;
     display: flex !important;

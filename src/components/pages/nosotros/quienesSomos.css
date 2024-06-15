@@ -10,7 +10,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 20px 10px;
 }
 
 .contenedorImg2 {
@@ -53,6 +52,7 @@
 .cardCard2 {
   width: 80vw !important;
   min-height: 300px !important;
+  padding: 20px !important;
   background-color: #02012b;
   display: flex !important;
   align-items: center !important;
@@ -60,6 +60,7 @@
   flex-direction: row;
   margin: 20px;
   border-radius: 15px;
+  cursor: pointer;
   transition: transform 0.3s ease-in-out; /* Añadimos una transición suave */
 }
 
@@ -72,27 +73,28 @@
 }
 
 .imgImg2 {
-  width: 200px;
+  width: 180px;
   margin: 50px;
 }
 
 .texto1 {
-  font-size: 25px;
+  font-size: 20px;
   text-align: justify;
-  margin: 80px 200px;
+  margin: 80px 120px;
   line-height: 40px;
 }
 
 .texto2 {
+  font-size: 20px;
   text-align: left;
   color: white;
-  margin: 15px;
+  margin-left: 30px;
   margin-bottom: 20px;
 }
 
 .texto3 {
   text-align: justify;
-  font-size: larger;
+  font-size: 16px;
   margin: 5px 40px;
   line-height: 35px;
   color: white;
@@ -110,7 +112,7 @@
 
 .texto5 {
   text-align: justify;
-  font-size: 20px;
+  font-size: 18px;
   margin: 10px 40px;
   line-height: 35px;
   font-weight: 450;
@@ -131,7 +133,7 @@
     justify-content: center !important;
   }
   .nosotrosImg2 {
-    height: 26.7px !important;
+    height: 18px !important;
     width: auto !important;
     margin: 1px !important;
   }
