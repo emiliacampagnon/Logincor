@@ -43,7 +43,7 @@
   transform: scale(1.05);
 }
 .contenedorIndividual {
-  width: 800px !important;
+  width: 1000px !important;
   display: flex;
   flex-direction: row;
   align-items: center !important;
@@ -51,19 +51,19 @@
   padding: 20px;
 }
 .contenedorTextos {
-  width: 350px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   margin-left: 50px;
 }
 .texto1Direcciones {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
 }
 .texto2Direcciones {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   color: white;
 }
 
@@ -84,12 +84,12 @@
   transform: scale(1.1);
 }
 .contenedorMapa {
-  width: 350px;
+  width: 450px;
   padding: 5px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .contenedorBoton {
   width: 350px;

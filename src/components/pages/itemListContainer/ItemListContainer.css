@@ -14,11 +14,13 @@ h1 {
 .itemList {
   width: 100vw !important;
   height: auto;
+  display: flex !important;
+  justify-content: center !important;
 }
 .contenedorCardItemList {
   width: 100vw !important;
   display: flex !important;
-  justify-content: space-evenly !important;
+  justify-content: space-between !important;
   margin: 50px 0px;
 }
 

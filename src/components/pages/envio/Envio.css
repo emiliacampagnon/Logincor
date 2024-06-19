@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
+  margin-top: 20px;
 }
 .seguiContainer {
   width: 50vw;
@@ -20,7 +21,7 @@
   margin-top: 30px;
   margin-bottom: 5px;
   border-radius: 50px;
-  transition: color 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out !important;
 }
 .seguiContainer:hover {
   transform: scale(1.05);
@@ -53,7 +54,7 @@ h5 {
   .seguiContainer {
     width: 65vw !important;
     height: auto !important;
-    transition: color 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out !important;
     margin-top: 10px;
     margin-bottom: 5px;
   }

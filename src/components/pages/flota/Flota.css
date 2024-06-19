@@ -57,14 +57,19 @@
   width: 90vw;
 }
 .cardVehiculos {
-  width: 40vw;
-  min-height: 700px;
+  width: 25vw;
+  height: 280px;
+  min-height: auto;
   background-color: #02012b;
   border-radius: 15px;
   margin: 20px;
   padding: 10px;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
 }
 .cardVehiculos:hover {
   transform: scale(1.05);
@@ -89,12 +94,22 @@
   border-radius: 15px;
   margin: 10px;
 }
+.contenedorTituloFlota {
+  width: 250px;
+  height: 52px !important;
+  margin: 15px 0px;
+}
 .titulosVehiculos {
-  font-size: 25px !important;
+  background-color: #d0e0ff48;
+  font-size: 18px !important;
   text-align: center;
-  margin-top: 20px !important;
   color: white;
-  border: 2px white !important;
+  border-radius: 15px;
+  width: 250px;
+  height: 52px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contenedorAux {
@@ -118,6 +133,13 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 30px;
+}
+.textoFlota {
+  font-size: 15px;
+  color: white;
+}
+.contenedorTextosFlota {
+  margin: 20px;
 }
 
 @media only screen and (max-width: 480px) {
