@@ -165,8 +165,9 @@
     padding: 5px;
   }
   .textosLabel {
+    margin-left: 20px !important;
     margin: 10px 15px;
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .cotizacion {
@@ -183,10 +184,10 @@
   .form-select {
     width: 80vw;
     padding: 5px;
-    margin: 5px 15px;
+    margin: 1px 15px;
   }
   .contenedorTitulo3 {
-    height: 8vw;
+    height: 6vw;
     width: 85vw !important;
     display: flex !important;
     align-items: center !important;
@@ -198,5 +199,6 @@
   }
   .form-select {
     font-size: 10px;
+    padding: 2px;
   }
 }

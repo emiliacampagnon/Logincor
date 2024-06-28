@@ -87,7 +87,7 @@
 }
 @media only screen and (max-width: 480px) {
   .Container {
-    width: 70vw !important;
+    width: 80vw !important;
     margin: 10px 5px;
     height: auto;
     display: flex !important;
@@ -95,19 +95,19 @@
     margin-bottom: 25px;
   }
   .nuestrosDepositos {
-    width: 25vw;
+    width: 32vw;
     margin-bottom: 5px;
     margin-top: 15px !important;
   }
   .contenedorMapas {
-    width: 60vw !important;
+    width: 75vw !important;
     height: auto;
     display: flex;
     flex-direction: row;
   }
   .cardMapas {
-    width: 25vw !important;
-    height: 35vw;
+    width: 32vw !important;
+    height: 45vw;
     margin: 5px !important;
     padding: 0px !important;
     display: flex !important;
@@ -116,26 +116,26 @@
     flex-direction: column;
   }
   .textosMaps {
-    width: 20vw !important;
+    width: 28vw !important;
     margin: 8px;
     padding: 0px;
   }
   .h2Depositos {
-    font-size: 1.5vw;
+    font-size: 2vw;
     margin: 1px;
     margin-bottom: 3px;
   }
   .h3Depositos {
-    font-size: 1.1vw;
+    font-size: 1.5vw;
     margin: 1px;
   }
   .h4Depositos {
-    font-size: 1.1vw;
+    font-size: 1.5vw;
     margin: 1px;
   }
   .botonMapa {
-    width: 10vw !important;
-    font-size: 1vw !important;
+    width: 15vw !important;
+    font-size: 1.5vw !important;
     margin: 8px !important;
     margin-top: 10px !important;
     margin-bottom: 15px !important;
