@@ -12,7 +12,7 @@ const Depositos = () => {
     <div className="Container">
       <img
         className="nuestrosDepositos"
-        src="../public/nuestrosDepositos.png"
+        src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/nuestrosDepositos.png?alt=media&token=9fe7dd7b-a852-4ac6-8b5f-20b8e9169ce2"
         alt=""
       />
       <div className="contenedorMapas">

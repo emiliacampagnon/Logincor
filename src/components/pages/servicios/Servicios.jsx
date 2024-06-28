@@ -5,7 +5,11 @@ const Servicios = ({ items, error }) => {
   return (
     <div className="contenedorTotal">
       <div className="contenedorTitulo">
-        <img className="titulo" src="../public/nuestrosServicios.png" alt="" />
+        <img
+          className="titulo"
+          src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/nuestrosServicios.png?alt=media&token=44603981-80e8-4df6-ba35-2409cac3904b"
+          alt=""
+        />
       </div>
       <div className="itemList">
         {items.map(({ id, title, img }) => {

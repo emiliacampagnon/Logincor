@@ -3,7 +3,11 @@ import "./Carousel.css";
 const Carousel = () => {
   return (
     <div className="imagenSola">
-      <img className="imgCamion" src="../public/camionLogincor.jpg" alt="" />
+      <img
+        className="imgCamion"
+        src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/camionLogincor.jpg?alt=media&token=a37a9987-e66a-4bbc-a80f-05f8d0d64165"
+        alt=""
+      />
     </div>
   );
 };
