@@ -1,13 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-
 import ItemListContainer from "./components/pages/itemListContainer/ItemListContainer.jsx";
 import { Layout } from "./components/layout/Layout.jsx";
 import ItemDetail from "./components/pages/itemDetail/ItemDetail.jsx";
-
 import CartContextProvider from "./context/CartContext.jsx";
-
 import CarouselItemListContainer from "./components/pages/carouselItemListContainer.jsx";
 import { useState } from "react";
 import "./App.css";
@@ -18,24 +15,29 @@ import ProvinciasLocalidades from "./components/pages/localidades/localidades.js
 import QuienesSomos from "./components/pages/nosotros/quienesSomos.jsx";
 import Flota from "./components/pages/flota/Flota.jsx";
 import Contacto from "./components/pages/contacto/Contacto.jsx";
+import { useEffect } from "react";
 
 const App = () => {
   const [showContent, setShowContent] = useState(false);
+
+  useEffect(() => {
+    const isFirstVisit = localStorage.getItem("isFirstVisit");
+    if (!isFirstVisit) {
+      setShowContent(false);
+      localStorage.setItem("isFirstVisit", "true");
+    } else {
+      setShowContent(true);
+    }
+  }, []);
 
   const handleShowContent = () => {
     setShowContent(true);
   };
 
   const fetchItem = async (id) => {
-    console.log("ID recibido en fetchItem:", id); // Para verificar el ID recibido
-    console.log("Datos de serviciosMock:", serviciosMock); // Para verificar el contenido de serviciosMock
-
-    // Convierte id a número utilizando el operador unario +
     const itemId = +id;
-
-    // Implementa la lógica para obtener el servicio por ID
     const item = serviciosMock.find((service) => service.id === itemId);
-    console.log("Servicio encontrado:", item); // Para verificar si el servicio se ha encontrado correctamente
+    console.log("Servicio encontrado:", item);
 
     if (!item) {
       throw new Error("Item not found");
@@ -74,13 +76,11 @@ const App = () => {
                 path="/servicios/:id"
                 element={<ItemDetail fetchItem={fetchItem} />}
               />
-
               <Route path="category/:name" element={<ItemListContainer />} />
               <Route path="/Destinos" element={<ProvinciasLocalidades />} />
               <Route path="/QuienesSomos" element={<QuienesSomos />} />
               <Route path="/Flota" element={<Flota />} />
               <Route path="/Contacto" element={<Contacto />} />
-
               <Route path="*" element={<h1>Error 404</h1>} />
             </Route>
           </Routes>
