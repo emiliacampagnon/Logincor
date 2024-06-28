@@ -8,7 +8,7 @@ export let serviciosMock = [
     description4: "• Carga asegurada.",
     description5: "• Seguimiento online de tu envío.",
     description6: "• Atención humana y personalizada.",
-    img: "https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/24%20hs.png?alt=media&token=36b40ab5-a4ef-4d98-ae96-a819f1d88292",
+    img: "./public/24hs.png",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ export let serviciosMock = [
     description5: "• Seguimiento online de tu envío.",
     description6: "• Atención humana y personalizada.",
 
-    img: "https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Ecommerce.png?alt=media&token=5047ca59-d8b0-42f7-9001-6e12b81ce2e6",
+    img: "./public/ecommerce.png",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export let serviciosMock = [
     description5: "• Seguimiento online de tu envío.",
     description6: "• Monitoreo satelital.",
     description7: "• Atención humana y personalizada.",
-    img: "https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Cargas%20Completas%202.png?alt=media&token=66e2aea6-d031-446d-a0c6-1c2246d7387f",
+    img: "./public/cargasCompletas.png",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ export let serviciosMock = [
     description5: "• Seguimiento online de tu envío.",
     description6: "• Monitoreo satelital.",
     description7: "• Atención humana y personalizada.",
-    img: "https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Cargas%20Peligrosas.png?alt=media&token=7ed907fb-f3c2-4228-b1de-8ecdcd8bb64b",
+    img: "./public/cargasPeligrosas.png",
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ export let serviciosMock = [
     description5: "• Seguimiento online de tu envío.",
     description6: "• Monitoreo satelital.",
     description7: "• Atención humana y personalizada.",
-    img: "https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Desconsilidado%20de%20contenedores.png?alt=media&token=5b991f25-8395-4d2a-9e7f-1c5878c351a5",
+    img: "./public/desconsolidado.png",
   },
   {
     id: 6,
@@ -71,7 +71,7 @@ export let serviciosMock = [
     description4: "• Seguimiento online de tu envío.",
 
     description5: "• Atención humana y personalizada.",
-    img: "https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Servicio%20Puerta%20a%20Puerta.png?alt=media&token=5c917d42-17e4-4da8-9214-da8a8570b262",
+    img: "./public/puerta.png",
   },
   {
     id: 7,
@@ -83,7 +83,7 @@ export let serviciosMock = [
     description5: "• Fraccionamiento y repalletizado.",
     description6: "• Carga asegurada.",
     description7: "• Atención humana y personalizada.",
-    img: "https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Warehouse.png?alt=media&token=436d1023-3325-4b33-a7b8-391703baa020",
+    img: "./public/warehouse.png",
   },
   // {
   //   id: 8,

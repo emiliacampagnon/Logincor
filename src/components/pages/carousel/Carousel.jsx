@@ -3,11 +3,7 @@ import "./Carousel.css";
 const Carousel = () => {
   return (
     <div className="imagenSola">
-      <img
-        className="imgCamion"
-        src="https://res.cloudinary.com/dxzytrwpw/image/upload/v1718126619/CAMION_LOGINCOR_7-03_qybjrc.jpg"
-        alt=""
-      />
+      <img className="imgCamion" src="../public/camionLogincor.jpg" alt="" />
     </div>
   );
 };
