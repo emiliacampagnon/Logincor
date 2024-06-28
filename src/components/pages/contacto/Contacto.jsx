@@ -7,7 +7,7 @@ import MapaBsAsContacto from "../../common/mapasContacto/MapaBsAsContacto.jsx";
 
 const Contacto = () => {
   return (
-    <div className="contenedorContacto">
+    <div className="contenedorTotal">
       <div className="contenedorTitulo">
         <img
           className="titulo"

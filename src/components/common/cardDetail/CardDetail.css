@@ -101,4 +101,7 @@
     font-size: 11px !important;
     margin: 10px !important;
   }
+  .contenedorTotal {
+    min-height: 80vh;
+  }
 }

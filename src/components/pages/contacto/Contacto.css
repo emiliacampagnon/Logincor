@@ -155,7 +155,7 @@
     justify-content: left;
   }
   .contenedorMapa {
-    width: 45vw !important;
+    width: 40vw !important;
     margin: 10px !important;
     padding: 0px !important;
     display: flex !important;
@@ -164,9 +164,9 @@
     flex-direction: row;
   }
   .botonMapaContacto {
-    width: 12vw;
+    width: 13vw;
     height: 4vw !important;
-    font-size: 1.2vw !important;
+    font-size: 1.5vw !important;
     padding: 1px !important;
     margin: 4px !important;
   }
