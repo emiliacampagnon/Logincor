@@ -3,17 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-.contenedorMapaBsAs {
-  width: 12vw !important;
-  height: 12vw !important;
+.contenedorMapaBsAsContacto {
+  width: 14vw !important;
+  height: 14vw !important;
   margin: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.mapaBsAs {
-  width: 12vw !important;
-  height: 12vw !important;
+.mapaBsAsContacto {
+  width: 14vw !important;
+  height: 14vw !important;
 }
 .leaflet-control-zoom {
   display: none !important;
@@ -22,9 +22,9 @@
   display: none;
 }
 @media only screen and (max-width: 480px) {
-  .contenedorMapaBsAs {
-    width: 13vw !important;
-    height: 13vw !important;
+  .contenedorMapaBsAsContacto {
+    width: 18vw !important;
+    height: 18vw !important;
     margin: 0px !important;
     padding: 0px !important;
   }

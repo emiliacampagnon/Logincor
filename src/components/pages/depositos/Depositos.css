@@ -4,27 +4,28 @@
   box-sizing: border-box;
 }
 .Container {
-  width: 900px !important;
+  width: 60vw !important;
   background-color: #02012b;
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: space-between !important;
   align-items: center;
   flex-direction: column;
   border-radius: 20px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 .nuestrosDepositos {
-  margin-top: 20px;
-  width: 350px;
+  margin-top: 30px !important;
+  width: 25vw;
 }
 .contenedorMapas {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly !important;
   padding: 0px !important;
-  width: 800px !important;
+  width: 60vw !important;
   flex-wrap: wrap;
-  margin: 15px;
+  margin: 10px 0px;
 }
 
 .cardMapas {
@@ -32,46 +33,46 @@
   border-radius: 20px;
   display: flex !important;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
-  width: 320px !important;
-  height: 450px;
+  width: 20vw !important;
+  height: 28vw;
   flex-wrap: nowrap;
-  margin: 25px 20px;
+  margin: 25px 0px;
   cursor: pointer !important;
-  transition: transform 0.3s ease-in-out !important;
 }
-.cardMapas:hover {
-  transform: scale(1.05);
-}
+
 .textosMaps {
   display: flex;
   flex-direction: column;
   align-items: center !important;
   text-align: center !important;
-  margin: 15px;
+  margin: 10px 5px;
 }
 .h2Depositos {
-  font-size: 22px;
-  margin: 8px;
+  font-size: 1.4vw;
+  margin: 5px;
   color: #02012b;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 .h3Depositos {
-  font-size: 15px;
-  margin: 3px 0px;
+  font-size: 1vw;
+  margin: 0px;
   color: #02012b;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 .h4Depositos {
-  font-size: 15px;
-  margin: 3px 0px;
+  font-size: 1vw;
+  margin: 0px;
   color: #02012b;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 .botonMapa {
+  width: 10vw !important;
+  margin: 5px !important;
+  padding: 5px !important;
   background-color: #02012b !important;
-  margin: 20px !important;
+  font-size: 1vw !important;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
   font-style: italic !important;
   text-transform: none !important;
@@ -82,30 +83,31 @@
   background-color: white !important;
   color: #02012b;
   cursor: pointer !important; /* Asegura que el cursor cambie a una mano en el estado hover */
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 @media only screen and (max-width: 480px) {
   .Container {
-    width: 390px !important;
+    width: 70vw !important;
     margin: 10px 5px;
     height: auto;
     display: flex !important;
     flex-direction: column !important;
+    margin-bottom: 25px;
   }
   .nuestrosDepositos {
-    width: 200px;
+    width: 25vw;
     margin-bottom: 5px;
-    margin-top: 15px;
+    margin-top: 15px !important;
   }
   .contenedorMapas {
-    width: 380px !important;
+    width: 60vw !important;
     height: auto;
     display: flex;
     flex-direction: row;
   }
   .cardMapas {
-    width: 170px !important;
-    height: auto;
+    width: 25vw !important;
+    height: 35vw;
     margin: 5px !important;
     padding: 0px !important;
     display: flex !important;
@@ -114,25 +116,26 @@
     flex-direction: column;
   }
   .textosMaps {
-    width: 160px !important;
-    margin: 10px;
+    width: 20vw !important;
+    margin: 8px;
     padding: 0px;
   }
   .h2Depositos {
-    font-size: 14px;
+    font-size: 1.5vw;
     margin: 1px;
+    margin-bottom: 3px;
   }
   .h3Depositos {
-    font-size: 10px;
+    font-size: 1.1vw;
     margin: 1px;
   }
   .h4Depositos {
-    font-size: 10px;
+    font-size: 1.1vw;
     margin: 1px;
   }
   .botonMapa {
-    width: 100px !important;
-    font-size: 9px !important;
+    width: 10vw !important;
+    font-size: 1vw !important;
     margin: 8px !important;
     margin-top: 10px !important;
     margin-bottom: 15px !important;

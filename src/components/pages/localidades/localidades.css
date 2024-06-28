@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .nuestrosDestinos {
-  height: 30px !important;
+  height: 2.5vw !important;
   width: auto;
   margin: 10px;
 }
@@ -30,16 +30,13 @@
   cursor: pointer;
   margin: 15px 0px !important;
   padding: 25px;
-  transition: transform 0.3s ease-in-out;
 }
-.contenedorLabel:hover {
-  transform: scale(1.05);
-}
+
 .destinosH1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px !important;
+  font-size: 2.3vw !important;
   margin: 30px !important;
-  margin-bottom: 90px !important;
+  margin-bottom: 8vw !important;
 }
 .mapaImg {
   width: 30vw;
@@ -115,11 +112,12 @@
 }
 .linkPedi {
   width: 40vw;
+  height: 4vw;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 15px !important;
+  border-radius: 10px !important;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
@@ -187,6 +185,7 @@
     margin: 5px 15px;
   }
   .contenedorTitulo3 {
+    height: 8vw;
     width: 85vw !important;
     display: flex !important;
     align-items: center !important;
@@ -194,6 +193,7 @@
   }
   .linkPedi {
     width: 70vw;
+    height: 8vw;
   }
   .form-select {
     font-size: 10px;

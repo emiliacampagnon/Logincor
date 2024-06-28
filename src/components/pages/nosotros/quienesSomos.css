@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.contenedorTextosNosotros {
+  margin: 1.5vw 1vw;
+  margin-right: 3vw !important;
+}
 .contenedorTotal2 {
   width: 100vw;
   display: flex;
@@ -65,56 +68,55 @@
 }
 
 .cardCard2:hover {
-  transform: scale(1.05); /* Aumenta el tamaño en un 5% */
+  transform: scale(1.02); /* Aumenta el tamaño en un 5% */
 }
 
 .imagenCard2 {
-  width: 200px;
+  width: 12vw;
+  margin: 30px;
 }
 
 .imgImg2 {
-  width: 180px;
-  margin: 50px;
+  width: 10vw;
 }
 
 .texto1 {
-  font-size: 20px;
+  font-size: 1.2vw !important;
   text-align: justify;
-  margin: 80px 120px;
-  line-height: 40px;
+  margin: 5vw 10vw !important;
+  line-height: 3vw;
 }
 
 .texto2 {
-  font-size: 20px;
+  font-size: 1.5vw !important;
   text-align: left;
   color: white;
-  margin-left: 30px;
   margin-bottom: 20px;
 }
 
 .texto3 {
   text-align: justify;
-  font-size: 16px;
-  margin: 5px 40px;
-  line-height: 35px;
+  font-size: 1.2vw;
+  margin: 5px 0px;
+  line-height: 3vw;
   color: white;
   font-weight: 250;
 }
 
 .texto4 {
   text-align: justify;
-  font-size: large;
-  margin: 10px 70px;
-  line-height: 25px;
+  font-size: 1.2vw;
+  margin-left: 20px;
+  line-height: 3vw;
   font-weight: 250;
   color: white;
 }
 
 .texto5 {
   text-align: justify;
-  font-size: 18px;
-  margin: 10px 40px;
-  line-height: 35px;
+  font-size: 1.3vw;
+  margin: 0px;
+  line-height: 3vw;
   font-weight: 450;
   color: white;
 }
@@ -145,48 +147,48 @@
     width: 360px;
   }
   .texto1 {
-    font-size: 12px;
-    margin: 15px 20px;
-    line-height: 25px;
+    font-size: 2vw !important;
+    margin: 10px 15px;
+    line-height: 4vw;
   }
   .cardCard2 {
-    width: 330px !important;
+    width: 90vw !important;
+    min-height: 15vw !important;
     margin: 10px !important;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    padding: 10px !important;
   }
   .imagenCard2 {
-    width: 80px;
-    margin: 0px;
-    margin-top: 10px;
+    width: 15vw !important;
+    margin: 2px 20px;
     align-items: center;
     text-align: center;
   }
 
   .imgImg2 {
-    width: 60px;
-    margin: 5px;
+    width: 12vw;
+    margin: 1px;
   }
   .texto2 {
-    text-align: center;
-    margin: 2px;
-    font-size: 14px;
-    margin-bottom: 20px;
+    text-align: left;
+    margin: 10px 0px;
+    font-size: 2.5vw !important;
   }
   .texto3 {
-    font-size: 11px;
+    font-size: 1.5vw;
     margin: 10px;
-    line-height: 20px;
+    line-height: 2.5vw !important;
   }
   .texto4 {
-    font-size: 12px;
-    margin: 5px 20px !important;
-    line-height: 20px;
+    font-size: 1.5vw;
+    margin: 5px 10px !important;
+    line-height: 2.5vw;
   }
   .texto5 {
-    font-size: 12px !important;
+    font-size: 1.8vw !important;
     margin: 5px 10px;
-    line-height: 20px;
+    line-height: 2.5vw;
   }
   .contenedorTextosNosotros {
     width: 310px;

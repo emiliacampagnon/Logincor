@@ -16,12 +16,13 @@ h1 {
   height: auto;
   display: flex !important;
   justify-content: center !important;
+  margin: 30px 0px;
+  margin-bottom: 40px;
 }
 .contenedorCardItemList {
   width: 100vw !important;
   display: flex !important;
-  justify-content: space-between !important;
-  margin: 50px 0px;
+  justify-content: space-evenly !important;
 }
 
 @media only screen and (max-width: 480px) {

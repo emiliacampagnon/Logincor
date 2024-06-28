@@ -52,7 +52,7 @@ const QuienesSomos = () => {
               />
             </div>
 
-            <CardContent>
+            <CardContent className="contenedorTextosNosotros">
               <h2 className="texto2">Visión</h2>
               <h3 className="texto3">
                 Nuestra visión es ser la empresa líder en transporte y logística
@@ -75,7 +75,7 @@ const QuienesSomos = () => {
               />
             </div>
 
-            <CardContent>
+            <CardContent className="contenedorTextosNosotros">
               <h2 className="texto2">Valores</h2>
               <h3 className="texto5">• Velocidad de Entrega:</h3>
               <h4 className="texto4">

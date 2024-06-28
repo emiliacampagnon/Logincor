@@ -10,9 +10,12 @@
   justify-content: center;
   width: 100vw;
   margin-top: 20px;
+  margin-bottom: 0px !important;
 }
 .seguiContainer {
+  cursor: pointer;
   width: 50vw;
+  height: 5vw !important;
   height: auto;
   background-color: #02012b;
   display: flex;
@@ -20,7 +23,7 @@
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 5px;
-  border-radius: 50px;
+  border-radius: 15px;
   transition: transform 0.3s ease-in-out !important;
 }
 .seguiContainer:hover {
@@ -40,8 +43,10 @@
   font-size: 3vw !important;
   margin-left: 20px;
 }
-h5 {
-  margin: 20px;
+
+.estadoEnvio {
+  font-size: 2vw;
+  margin: 10px;
   color: #02012b;
 }
 
@@ -52,8 +57,9 @@ h5 {
     margin: 10px 0px;
   }
   .seguiContainer {
-    width: 65vw !important;
-    height: auto !important;
+    border-radius: 6px;
+    width: 50vw;
+    height: 5vw !important;
     transition: transform 0.3s ease-in-out !important;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -63,8 +69,8 @@ h5 {
   }
   .segui {
     margin: 8px;
-    width: 20vw !important;
-    height: auto !important;
+    width: 16vw !important;
+    height: auto;
   }
   .searchIcon {
     font-size: 3vw !important;
@@ -72,5 +78,8 @@ h5 {
   h5 {
     font-size: 14px;
     margin: 5px;
+  }
+  .estadoEnvio {
+    font-size: 2vw;
   }
 }

@@ -43,8 +43,8 @@
   border-radius: 50px;
   margin: 0.5vw;
   padding: 0.6vw;
-  width: 4vw !important;
-  height: 4vw !important;
+  width: 3.6vw !important;
+  height: 3.6vw !important;
   transition: transform 0.3s ease-in-out !important;
 }
 .icono:hover {

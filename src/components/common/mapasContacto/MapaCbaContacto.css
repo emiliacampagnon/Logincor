@@ -3,28 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
-.contenedorMapaBsAs {
-  width: 12vw !important;
-  height: 12vw !important;
+.contenedorMapaCordobaContacto {
+    width: 14vw !important;
+    height: 14vw !important;
   margin: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.mapaBsAs {
-  width: 12vw !important;
-  height: 12vw !important;
+.mapaCordobaContacto {
+    width: 14vw !important;
+    height: 14vw !important;
 }
 .leaflet-control-zoom {
   display: none !important;
 }
-.leaflet-control-attribution {
-  display: none;
-}
 @media only screen and (max-width: 480px) {
-  .contenedorMapaBsAs {
-    width: 13vw !important;
-    height: 13vw !important;
+  .contenedorMapaCordobaContacto {
+    width: 18vw !important;
+    height: 18vw !important;
     margin: 0px !important;
     padding: 0px !important;
   }

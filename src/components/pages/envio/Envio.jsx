@@ -5,7 +5,7 @@ const Envio = () => {
   return (
     <div className="containerPrincipal">
       <div className="seguiContainer">
-        <a 
+        <a
           href="http://logincor.sytes.net/logincor/ingclientes.asp"
           target="_blank"
         >
@@ -18,7 +18,9 @@ const Envio = () => {
         <SearchIcon className="searchIcon" />
       </div>
 
-      <h5>Conocé el estado de tus envíos en todo momento.</h5>
+      <h5 className="estadoEnvio">
+        Conocé el estado de tus envíos en todo momento.
+      </h5>
     </div>
   );
 };

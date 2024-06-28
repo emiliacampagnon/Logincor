@@ -1,9 +1,9 @@
-import MapaOficina from "../../common/mapas/MapaOficina.jsx";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-import Mapa from "../../common/mapas/Mapas.jsx";
-import MapaBsAs from "../../common/mapas/MapaBsAs.jsx";
 import "./Contacto.css";
+import MapaOficinaContacto from "../../common/mapasContacto/MapaOficinaContacto.jsx";
+import MapaCbaContacto from "../../common/mapasContacto/MapaCbaContacto.jsx";
+import MapaBsAsContacto from "../../common/mapasContacto/MapaBsAsContacto.jsx";
 
 const Contacto = () => {
   return (
@@ -28,7 +28,7 @@ const Contacto = () => {
               <p className="texto2Direcciones">Horarios: 8:00 a 18:00 hs</p>
             </div>
             <div className="contenedorMapa">
-              <MapaOficina />
+              <MapaOficinaContacto />
               <Button
                 className="botonMapaContacto"
                 component={Link}
@@ -55,7 +55,7 @@ const Contacto = () => {
               <p className="texto2Direcciones">Horarios: 8:00 a 17:00 hs</p>
             </div>
             <div className="contenedorMapa">
-              <Mapa />
+              <MapaCbaContacto />
               <Button
                 className="botonMapaContacto"
                 component={Link}
@@ -82,7 +82,7 @@ const Contacto = () => {
               <p className="texto2Direcciones">Horarios: 8:00 a 17:00 hs</p>
             </div>
             <div className="contenedorMapa">
-              <MapaBsAs />
+              <MapaBsAsContacto />
               <Button
                 className="botonMapaContacto"
                 component={Link}

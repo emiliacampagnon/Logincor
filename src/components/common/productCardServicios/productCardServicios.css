@@ -4,47 +4,46 @@
   box-sizing: border-box;
 }
 .cardContainerServicios {
-  width: 330px !important;
-  height: 430px !important;
+  width: 20vw !important;
+  height: 25vw !important;
   border-radius: 20px;
   transition: transform 0.3s ease;
   padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px;
+  margin: 20px !important;
   margin-bottom: 20px !important;
 }
 .cardContainerServicios:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 .cardCardServicios {
+  width: 20vw !important;
+  height: 25vw !important;
   cursor: pointer;
   background-color: #02012b !important;
-  width: 310px !important;
-  height: 410px !important;
   display: flex !important;
   flex-direction: column;
   align-items: center !important;
-  justify-content: center !important;
+  justify-content: space-evenly !important;
   padding: 5px !important;
   border-radius: 15px !important;
   margin: 1px !important;
 }
 .linkServicios {
-  width: 320px !important;
-  height: 420px !important;
+  width: 20vw !important;
+  height: 25vw !important;
   text-decoration: none;
   padding: 5px;
 }
 .imgCardServicios {
-  width: 200px;
-  height: 200px;
+  width: 10vw;
+  height: 10vw;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-
   padding: 5px;
 }
 .typoServicios {
@@ -56,7 +55,7 @@
   text-align: center;
   color: white !important;
   padding: 2px;
-  font-size: 20px !important;
+  font-size: 1.4vw !important;
 }
 .buttonCard {
   background-color: white !important;
@@ -82,8 +81,8 @@
   align-items: flex-start;
   margin-bottom: 20px;
   justify-content: center;
-  width: 200px;
-  height: 200px;
+  width: 10vw;
+  height: 10vw;
 }
 .contenedorTextoServicios {
   padding: 1px;
