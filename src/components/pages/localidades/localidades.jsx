@@ -743,7 +743,7 @@ const ProvinciasLocalidades = () => {
     <div className="contenedorTotal">
       <div className="contenedorTitulo">
         <img
-          className="nuestrosDestinos"
+          className="titulo"
           src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-04.png?alt=media&token=6e93df9c-f49c-4f10-b1ce-24ac29ce6842"
           alt=""
         />

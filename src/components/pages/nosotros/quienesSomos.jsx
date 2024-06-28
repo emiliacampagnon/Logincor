@@ -5,9 +5,9 @@ import { CardContent } from "@mui/material";
 const QuienesSomos = () => {
   return (
     <div className="contenedorTotal2">
-      <div className="contenedorImg2">
+      <div className="contenedorTitulo">
         <img
-          className="nosotrosImg2"
+          className="titulo"
           src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-06.png?alt=media&token=351856de-5cd1-4dad-b3c2-b45895eb0b1e"
           alt=""
         />

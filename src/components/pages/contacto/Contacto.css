@@ -14,22 +14,6 @@
   justify-content: center;
   flex-direction: column;
 }
-.contenedorImgContacto {
-  margin: 10px !important;
-  width: 40vw !important;
-  height: 5vw !important;
-  background-color: #02012b;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  border-radius: 15px;
-  margin-top: 20px !important;
-}
-.comunicateConNosotros {
-  height: 2.5vw !important;
-  width: auto;
-  margin: 10px;
-}
 .contenedorDirecciones {
   width: 70vw !important;
   height: 22vw;

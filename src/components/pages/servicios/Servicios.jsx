@@ -6,7 +6,7 @@ const Servicios = ({ items, error }) => {
     <div className="contenedorTotal">
       <div className="contenedorTitulo">
         <img
-          className="nuestrosServicios"
+          className="titulo"
           src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-03.png?alt=media&token=ccf36ebd-f2ad-4834-a04e-b36f4e8d439f"
           alt=""
         />

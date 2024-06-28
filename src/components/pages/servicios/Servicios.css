@@ -12,20 +12,20 @@
   flex-direction: column;
 }
 .contenedorTitulo {
-  margin: 10px !important;
-  width: 40vw !important;
-  height: 5vw !important;
+  width: 40vw;
+  max-height: 8vw !important;
   background-color: #02012b;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 15px;
-  margin-top: 20px !important;
+  margin-top: 15px;
 }
-.nuestrosServicios {
-  height: 2.5vw !important;
-  width: auto;
+.titulo {
+  height: 2.5vw;
+  margin: 10px;
 }
+
 h1 {
   size: 30rem;
   text-align: center;
@@ -44,15 +44,16 @@ h1 {
 
 @media only screen and (max-width: 480px) {
   .contenedorTitulo {
-    width: 70vw !important;
-    height: 10vw !important;
+    width: 50vw !important;
+    height: 8vw !important;
     margin: 0px !important;
     margin-top: 10px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+    border-radius: 10px;
   }
-  .nuestrosServicios {
+  .titulo {
     height: 18px !important;
     width: auto !important;
     margin: 1px !important;

@@ -14,26 +14,6 @@
   justify-content: center;
   flex-direction: column;
 }
-
-.contenedorImg2 {
-  margin-top: 40px !important;
-  margin-bottom: 30px !important;
-  margin: 20px;
-  width: 600px;
-  height: 70px;
-  background-color: #02012b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-}
-
-.nosotrosImg2 {
-  margin-top: 20px;
-  margin-bottom: 30px;
-  width: 500px;
-}
-
 .contenedorCards2 {
   width: 90vw;
   height: auto;

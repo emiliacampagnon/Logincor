@@ -8,9 +8,9 @@ import MapaBsAsContacto from "../../common/mapasContacto/MapaBsAsContacto.jsx";
 const Contacto = () => {
   return (
     <div className="contenedorContacto">
-      <div className="contenedorImgContacto">
+      <div className="contenedorTitulo">
         <img
-          className="comunicateConNosotros"
+          className="titulo"
           src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-07.png?alt=media&token=6f951f96-48f6-4c61-a906-77e80416e64a"
           alt=""
         />

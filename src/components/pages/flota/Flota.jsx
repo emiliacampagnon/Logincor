@@ -3,9 +3,9 @@ import "./Flota.css";
 const Flota = () => {
   return (
     <div className="contenedorTotal5">
-      <div className="contenedorImg2">
+      <div className="contenedorTitulo">
         <img
-          className="nosotrosImg2"
+          className="titulo"
           src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-05.png?alt=media&token=a6bc5db2-4c14-4475-b387-d07e58107c36"
           alt=""
         />
