@@ -11,22 +11,23 @@ const Flota = () => {
         />
       </div>
       <div className="contenedorFlota">
-        <div className="contenedorIntro">
-          <p className="texto1Flota">
+        <div className="conteTextos">
+          <h1 className="texto1">
             En Logincor disponemos de una amplia flota de vehículos propios, que
             nos permite ofrecer una variedad de opciones con diferentes
             capacidades de carga para adaptarnos a las necesidades específicas
             de nuestros clientes. Entre las diferentes opciones contamos con
             vehículos con pala incorporada para facilitar y agilizar la carga y
             descarga de mercadería.
-          </p>
-          <p className="texto1Flota">
+          </h1>
+          <h1 className="texto1">
             Nuestra flota está compuesta por vehículos modernos y nuevos, que
             cumplen con los más rigurosos estándares de mantenimiento. Además
             están equipados con sistemas de seguimiento satelital para
             garantizar la seguridad y la eficiencia en cada entrega.
-          </p>
+          </h1>
         </div>
+
         <div className="contenedorCardVehiculos">
           <div className="cardVehiculos">
             <div className="contenedorTituloFlota">

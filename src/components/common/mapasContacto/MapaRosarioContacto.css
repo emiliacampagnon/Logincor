@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .contenedorMapaOficinaContacto {
+    width: 14vw !important;
+    height: 14vw !important;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mapaOficinaContacto {
+    width: 14vw !important;
+    height: 14vw !important;
+  }
+  .leaflet-control-zoom {
+    display: none !important;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .contenedorMapaOficinaContacto {
+      width: 18vw !important;
+      height: 18vw !important;
+      margin: 0px !important;
+      padding: 0px !important;
+    }
+    .mapaOficinaContacto {
+      width: 50px !important;
+    }
+  }
+  

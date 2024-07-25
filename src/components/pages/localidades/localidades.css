@@ -35,9 +35,8 @@
 
 .destinosH1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2.3vw !important;
-  margin: 30px !important;
-  margin-bottom: 8vw !important;
+  font-size: 2.1vw !important;
+  margin: 50px 30px !important;
 }
 .mapaImg {
   width: 30vw;
@@ -108,13 +107,13 @@
   align-items: center;
   justify-content: center;
   width: 50vw;
-  max-height: 8vw !important;
+  height: 5vw !important;
   transition: transform 0.3s ease;
-  margin: 30px 0px;
+  margin: 20px 0px;
 }
 .linkPedi {
   width: 40vw;
-  height: 3.5vw !important;
+  height: 4vw !important;
   background-color: white;
   display: flex;
   align-items: center;

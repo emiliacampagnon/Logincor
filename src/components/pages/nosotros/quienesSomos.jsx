@@ -15,12 +15,14 @@ const QuienesSomos = () => {
 
       <div className="contenedorCards2">
         <div className="cardGeneral2">
-          <h1 className="texto1">
-            En Logincor ofrecemos servicios de transporte y logística de primera
-            calidad en todo el país con más 30 años de experiencia en el sector.
-            Hemos construido una reputación sólida basada en la confiabilidad,
-            la eficiencia y la seguridad de nuestros servicios.
-          </h1>
+          <div className="conteTextos">
+            <h1 className="texto1">
+              En Logincor ofrecemos servicios de transporte y logística de
+              primera calidad en todo el país con más 30 años de experiencia en
+              el sector. Hemos construido una reputación sólida basada en la
+              confiabilidad, la eficiencia y la seguridad de nuestros servicios.
+            </h1>
+          </div>
           <div className="cardCard2">
             <div className="imagenCard2">
               <img

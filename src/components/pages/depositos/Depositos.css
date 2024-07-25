@@ -4,15 +4,14 @@
   box-sizing: border-box;
 }
 .Container {
-  width: 60vw !important;
+  width: 85vw !important;
   background-color: #02012b;
   display: flex !important;
-  justify-content: space-between !important;
+  justify-content: center !important;
   align-items: center;
   flex-direction: column;
   border-radius: 20px;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin: 50px 10px !important;
 }
 .nuestrosDepositos {
   margin-top: 30px !important;
@@ -21,11 +20,11 @@
 .contenedorMapas {
   display: flex;
   align-items: center;
-  justify-content: space-evenly !important;
+  justify-content: center !important;
   padding: 0px !important;
-  width: 60vw !important;
+  width: 82vw !important;
   flex-wrap: wrap;
-  margin: 10px 0px;
+  margin: 30px 20px !important;
 }
 
 .cardMapas {
@@ -33,13 +32,14 @@
   border-radius: 20px;
   display: flex !important;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around !important;
   flex-direction: column;
-  width: 20vw !important;
-  height: 28vw;
+  width: 18vw !important;
+  height: 25vw;
   flex-wrap: nowrap;
-  margin: 25px 0px;
+  margin: 25px 15px !important;
   cursor: pointer !important;
+  padding: 5px !important;
 }
 
 .textosMaps {
@@ -47,22 +47,22 @@
   flex-direction: column;
   align-items: center !important;
   text-align: center !important;
-  margin: 10px 5px;
+  margin: 2px 5px;
 }
 .h2Depositos {
-  font-size: 1.4vw;
-  margin: 5px;
+  font-size: 1.2vw;
+  margin: 10px 0px;
   color: #02012b;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 .h3Depositos {
-  font-size: 1vw;
+  font-size: 0.8vw;
   margin: 0px;
   color: #02012b;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 .h4Depositos {
-  font-size: 1vw;
+  font-size: 0.8vw;
   margin: 0px;
   color: #02012b;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
@@ -70,9 +70,10 @@
 .botonMapa {
   width: 10vw !important;
   margin: 5px !important;
+  margin-bottom: 15px !important;
   padding: 5px !important;
   background-color: #02012b !important;
-  font-size: 1vw !important;
+  font-size: 0.8vw !important;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
   font-style: italic !important;
   text-transform: none !important;

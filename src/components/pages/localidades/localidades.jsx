@@ -749,13 +749,15 @@ const ProvinciasLocalidades = () => {
         />
       </div>
       <div className="provincias-localidades">
-        <h1 className="destinosH1">Llegamos a más de 700 localidades</h1>
+        <h1 className="destinosH1">
+          Llegamos a más de 700 localidades de todo el país
+        </h1>
         <div className="contenedorLocalidades">
-          <img
+          {/* <img
             className="mapaImg"
             src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/mapa.png?alt=media&token=3f258575-b82e-43b5-aa96-a6e086cf983a"
             alt=""
-          />
+          /> */}
           <div className="contenedorLabel">
             <div>
               <label className="textosLabel" htmlFor="provincia">

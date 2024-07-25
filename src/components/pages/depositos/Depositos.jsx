@@ -6,6 +6,8 @@ import Mapa from "../../common/mapas/Mapas";
 import MapaBsAs from "../../common/mapas/MapaBsAs";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
+import MapaSantaFe from "../../common/mapas/MapaSantaFe";
+import MapaRosario from "../../common/mapas/MapaRosario";
 
 const Depositos = () => {
   return (
@@ -50,6 +52,46 @@ const Depositos = () => {
             className="botonMapa"
             component={Link}
             to="https://maps.app.goo.gl/mA2SZ2NSoysVtU4N7"
+            variant="contained"
+            target="_blank"
+          >
+            ¿Cómo llegar?
+          </Button>
+        </div>
+        <div className="cardMapas">
+          <div className="textosMaps">
+            <p className="h2Depositos">Rosario</p>
+            <p className="h3Depositos">Calle 1808 n° 12025</p>
+            <p className="h4Depositos">0351 - 7000710</p>
+            <p className="h4Depositos">Horarios: 8:00 a 17:00</p>
+          </div>
+          <div className="contenedorMapaCordoba">
+            <MapaRosario />
+          </div>
+          <Button
+            className="botonMapa"
+            component={Link}
+            to="https://maps.app.goo.gl/kgaubhei7tddZnQy9"
+            variant="contained"
+            target="_blank"
+          >
+            ¿Cómo llegar?
+          </Button>
+        </div>
+        <div className="cardMapas">
+          <div className="textosMaps">
+            <p className="h2Depositos">Santa Fe</p>
+            <p className="h3Depositos">Dr. Zavalla 1239</p>
+            <p className="h4Depositos">0351 - 7000710</p>
+            <p className="h4Depositos">Horarios: 8:00 a 17:00</p>
+          </div>
+          <div className="contenedorMapaCordoba">
+            <MapaSantaFe />
+          </div>
+          <Button
+            className="botonMapa"
+            component={Link}
+            to="https://maps.app.goo.gl/BWpGXyQxAzVgDQDg6"
             variant="contained"
             target="_blank"
           >

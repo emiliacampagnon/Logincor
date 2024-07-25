@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 .contenedorMapaCordoba {
-  width: 12vw !important;
-  height: 12vw !important;
+  width: 11vw !important;
+  height: 11vw !important;
   margin: 5px;
   display: flex;
   justify-content: center;
