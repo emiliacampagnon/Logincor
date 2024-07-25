@@ -89,13 +89,13 @@
   .Container {
     width: 80vw !important;
     margin: 10px 5px;
-    height: auto;
+    height: auto !important;
     display: flex !important;
     flex-direction: column !important;
     margin-bottom: 25px;
   }
   .nuestrosDepositos {
-    width: 32vw;
+    width: 40vw;
     margin-bottom: 5px;
     margin-top: 15px !important;
   }
@@ -104,40 +104,38 @@
     height: auto;
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px !important;
   }
   .cardMapas {
-    width: 32vw !important;
-    height: 45vw;
+    width: 70vw !important;
+    height: 30vw;
     margin: 5px !important;
     padding: 0px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    flex-direction: column;
+    flex-direction: row;
   }
   .textosMaps {
-    width: 28vw !important;
-    margin: 8px;
+    width: 25vw !important;
+    margin: 5px;
     padding: 0px;
   }
   .h2Depositos {
-    font-size: 2vw;
-    margin: 1px;
-    margin-bottom: 3px;
+    font-size: 2.8vw;
+    margin: 5px 0px;
   }
   .h3Depositos {
-    font-size: 1.5vw;
-    margin: 1px;
+    font-size: 2vw;
+    margin: 3px 0px;
   }
   .h4Depositos {
-    font-size: 1.5vw;
-    margin: 1px;
+    font-size: 2vw;
+    margin: 3px 0px;
   }
   .botonMapa {
     width: 15vw !important;
-    font-size: 1.5vw !important;
-    margin: 8px !important;
-    margin-top: 10px !important;
-    margin-bottom: 15px !important;
+    font-size: 1.8vw !important;
+    margin: 5px !important;
   }
 }

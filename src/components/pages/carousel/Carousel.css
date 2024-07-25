@@ -45,3 +45,11 @@ button {
 .imgCamion {
   max-width: 100vw !important;
 }
+@media only screen and (max-width: 480px) {
+  .imagenSola {
+    width: 150vw !important;
+  }
+  .imgCamion {
+    width: 150vw !important;
+  }
+}

@@ -31,12 +31,16 @@ h1 {
     height: auto !important;
     display: flex !important;
     align-items: center !important;
-    justify-content: center !important;
+    justify-content: space-evenly !important;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 10px 0px;
   }
   .contenedorCardItemList {
+    display: flex !important;
+    justify-content: space-evenly !important;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 95vw !important;
     height: auto !important;
     margin: 0px 0px !important;

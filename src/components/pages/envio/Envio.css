@@ -57,9 +57,9 @@
     margin: 10px 0px;
   }
   .seguiContainer {
-    border-radius: 6px;
-    width: 50vw;
-    height: 5vw !important;
+    border-radius: 10px;
+    width: 70vw;
+    height: 8vw !important;
     transition: transform 0.3s ease-in-out !important;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -69,17 +69,18 @@
   }
   .segui {
     margin: 8px;
-    width: 16vw !important;
+    width: 22vw !important;
     height: auto;
   }
   .searchIcon {
-    font-size: 3vw !important;
+    font-size: 4vw !important;
   }
   h5 {
-    font-size: 14px;
+    font-size: 2vw !important;
     margin: 5px;
   }
   .estadoEnvio {
+    margin: 3px;
     font-size: 2vw;
   }
 }

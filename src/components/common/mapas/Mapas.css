@@ -20,8 +20,8 @@
 }
 @media only screen and (max-width: 480px) {
   .contenedorMapaCordoba {
-    width: 18vw !important;
-    height: 18vw !important;
+    width: 20vw !important;
+    height: 20vw !important;
     margin: 0px !important;
     padding: 0px !important;
   }

@@ -90,43 +90,45 @@
     flex-wrap: wrap !important;
     align-items: center;
     justify-content: center;
-    width: 95px !important;
-    height: 140px !important;
+    width: 40vw !important;
+    height: auto !important;
     margin: 2px;
   }
   .cardCard {
     display: flex;
     align-items: center;
     justify-content: center !important;
-    width: 90px !important;
-    height: 135px !important;
-    margin: 0px !important;
+    width: 40vw !important;
+    height: auto !important;
+    margin: 5px !important;
     padding: 0px !important;
   }
   .contenedorImgCard {
-    width: 50px;
-    height: 50px;
+    width: 20vw;
+    height: 20vw;
     padding: 2px;
 
     margin-top: 10px !important;
   }
   .imgCard {
-    width: 40px !important;
-    height: 40px;
+    width: 18vw;
+    height: 18vw;
   }
   .typo {
-    height: 6vw !important;
-    font-size: 8px !important;
+    height: 8vw !important;
+    font-size: 2.5vw !important;
     margin-bottom: 5px !important;
+    margin: 5px;
   }
   .typo2 {
-    height: 5vw !important;
-    font-size: 5px !important;
+    height: 6vw !important;
+    font-size: 1.5vw !important;
+    margin: 5px;
   }
   .contenedorTextoCard {
-    width: 80px !important;
-    height: 15vw;
-    margin-bottom: 10px !important;
+    width: 25vw !important;
+    height: auto;
+    margin-bottom: 15px !important;
     padding: 2px !important;
   }
 }

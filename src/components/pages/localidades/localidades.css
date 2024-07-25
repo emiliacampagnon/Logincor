@@ -108,12 +108,13 @@
   align-items: center;
   justify-content: center;
   width: 50vw;
+  max-height: 8vw !important;
   transition: transform 0.3s ease;
   margin: 30px 0px;
 }
 .linkPedi {
   width: 40vw;
-  height: 4vw;
+  height: 3.5vw !important;
   background-color: white;
   display: flex;
   align-items: center;

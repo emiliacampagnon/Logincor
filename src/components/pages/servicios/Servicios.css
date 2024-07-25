@@ -44,8 +44,8 @@ h1 {
 
 @media only screen and (max-width: 480px) {
   .contenedorTitulo {
-    width: 50vw !important;
-    height: 8vw !important;
+    width: 60vw !important;
+    height: 9vw !important;
     margin: 0px !important;
     margin-top: 10px !important;
     display: flex !important;

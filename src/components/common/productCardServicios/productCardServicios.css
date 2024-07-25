@@ -90,8 +90,8 @@
 
 @media only screen and (max-width: 480px) {
   .cardContainerServicios {
-    width: 120px !important;
-    height: 160px !important;
+    width: 80vw !important;
+    height: 30vw !important;
     display: flex !important;
     justify-content: space-evenly !important;
     align-items: center;
@@ -99,17 +99,18 @@
     margin: 2px 2px !important;
   }
   .linkServicios {
-    width: 120px !important;
-    height: 160px !important;
+    width: 80vw !important;
+    height: 30vw !important;
     display: flex !important;
     justify-content: space-evenly !important;
     padding: 0px !important;
+    flex-direction: row;
   }
   .cardCardServicios {
     display: flex !important;
     justify-content: space-evenly !important;
-    width: 120px !important;
-    height: 160px !important;
+    width: 80vw !important;
+    height: 30vw !important;
   }
   .contenedorTextoServicios {
     display: flex;
