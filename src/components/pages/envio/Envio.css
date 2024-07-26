@@ -45,8 +45,9 @@
 }
 
 .estadoEnvio {
-  font-size: 2vw;
-  margin: 10px;
+  font-size: 1.5vw;
+  font-style: italic;
+  margin: 20px;
   color: #02012b;
 }
 
