@@ -171,7 +171,7 @@
   .contenedorCardVehiculos {
     width: 90vw !important;
     min-height: 300px !important;
-    margin: 0px !important;
+    margin: 10px 0px !important;
   }
   .cardVehiculos {
     width: 40vw !important;
@@ -191,7 +191,7 @@
   .titulosVehiculos {
     width: 30vw;
     height: 5vw !important;
-    font-size: 2vw !important;
+    font-size: 2.2vw !important;
     margin: 0px !important;
     border-radius: 5px;
   }
@@ -228,13 +228,17 @@
   }
   .contenedorTextosFlota {
     width: 30vw;
-    margin: 10px 5px;
+    margin: 15px 5px !important;
   }
   .textoFlota {
-    font-size: 1.8vw;
+    font-size: 2vw;
     margin: 8px 0px;
   }
-
+  .texto1 {
+    font-size: 2vw !important;
+    line-height: 4vw;
+    margin: 10px !important;
+  }
   /* .contenedorImg2 {
     width: 300px !important;
     height: 50px !important;
