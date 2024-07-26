@@ -149,7 +149,7 @@
   }
   .contenedorTotal5 {
     width: 100vw !important;
-    height: auto;
+    min-height: 65vh !important;
     margin: 10px 0px;
   }
   .contenedorFlota {

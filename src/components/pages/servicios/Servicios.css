@@ -5,7 +5,7 @@
 }
 .contenedorTotal {
   width: 100vw;
-  height: auto;
+  height: auto !important;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -60,6 +60,6 @@ h1 {
   }
   .contenedorTotal {
     width: 100vw !important;
-    height: auto;
+    min-height: 65vh !important;
   }
 }

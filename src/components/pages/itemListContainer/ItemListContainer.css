@@ -34,7 +34,7 @@ h1 {
     justify-content: space-evenly !important;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 10px 0px;
+    margin: 20px 0px !important;
   }
   .contenedorCardItemList {
     display: flex !important;

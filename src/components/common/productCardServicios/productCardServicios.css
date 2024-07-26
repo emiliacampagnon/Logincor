@@ -91,48 +91,50 @@
 @media only screen and (max-width: 480px) {
   .cardContainerServicios {
     width: 80vw !important;
-    height: 30vw !important;
+    height: auto !important;
     display: flex !important;
     justify-content: space-evenly !important;
     align-items: center;
     padding: 0 !important;
-    margin: 2px 2px !important;
+    margin: 7px 2px !important;
+    flex-direction: row !important;
   }
   .linkServicios {
     width: 80vw !important;
-    height: 30vw !important;
+    height: 15vw !important;
     display: flex !important;
     justify-content: space-evenly !important;
     padding: 0px !important;
-    flex-direction: row;
+    flex-direction: row !important;
   }
   .cardCardServicios {
     display: flex !important;
     justify-content: space-evenly !important;
     width: 80vw !important;
-    height: 30vw !important;
+    height: 15vw !important;
+    flex-direction: row-reverse !important;
   }
   .contenedorTextoServicios {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100px;
+    justify-content: left;
+    width: 40vw !important;
     height: 40px;
     padding: 1px !important;
     margin: 2px !important;
   }
   .typoServicios {
     padding: 3px !important;
-    font-size: 1.8vw !important;
-    margin-top: 5px !important;
+    font-size: 2.5vw !important;
+    margin: 1px !important;
   }
   .contenedorImgServicios {
-    width: 80px !important;
+    width: 15vw !important;
     height: auto !important;
-    margin-bottom: 5px !important;
+    margin: 5px !important;
   }
   .imgCardServicios {
-    width: 80px !important;
+    width: 14vw !important;
     height: auto;
   }
 }
