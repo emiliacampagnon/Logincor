@@ -186,6 +186,9 @@
     width: 80vw;
     padding: 5px;
     margin: 5px 15px;
+    touch-action: manipulation;
+    -ms-touch-action: manipulation;
+    -webkit-touch-action: manipulation;
   }
   .contenedorTitulo3 {
     height: 8vw;
