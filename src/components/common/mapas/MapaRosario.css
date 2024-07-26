@@ -23,8 +23,8 @@
 }
 @media only screen and (max-width: 480px) {
   .contenedorMapaBsAs {
-    width: 20vw !important;
-    height: 20vw !important;
+    width: 15vw !important;
+    height: 15vw !important;
     margin: 0px !important;
     padding: 0px !important;
   }

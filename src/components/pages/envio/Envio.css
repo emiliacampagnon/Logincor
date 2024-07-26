@@ -70,8 +70,8 @@
   }
   .segui {
     margin: 8px;
-    width: 22vw !important;
-    height: auto;
+    width: auto !important;
+    height: 2vh !important;
   }
   .searchIcon {
     font-size: 4vw !important;
