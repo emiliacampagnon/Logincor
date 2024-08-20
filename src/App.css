@@ -16,6 +16,11 @@
   max-width: 70%;
   height: auto;
 }
+.initial-image.placeholder {
+  background: #ccc; /* Color sólido o gradiente para el placeholder */
+  background: linear-gradient(45deg, #ddd, #eee); /* Ejemplo de gradiente */
+  opacity: 0.7;
+}
 
 .view-more-button {
   height: 100px !important;

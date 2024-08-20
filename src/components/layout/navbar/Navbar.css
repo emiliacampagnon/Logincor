@@ -10,10 +10,17 @@
   display: flex !important;
   flex-direction: row !important;
   align-items: center !important;
-  justify-content: space-between;
+  justify-content: space-between !important;
   min-height: 80px;
   max-height: 150px;
   padding: 20px;
+  margin: 0px !important;
+}
+.containerNav {
+  width: 100vw !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
 }
 .pages {
   width: 50vw !important;
@@ -79,7 +86,81 @@
   transform: scale(1.05);
 }
 
+.hamburguesa {
+  color: white !important;
+}
+.navbar-toggler {
+  margin-right: 40px;
+  border: none; /* Elimina el borde en el estado normal */
+}
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: none; /* Elimina cualquier sombra que pueda aparecer */
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+button:active {
+  border: none;
+  border-color: transparent !important;
+}
+
+.offcanvas-custom {
+  width: 33vw !important; /* Un tercio del ancho de la ventana */
+  background-color: #02012b !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: end !important;
+  align-items: end !important;
+}
+.titleBurguer {
+  width: 80px !important;
+  height: 30px !important;
+  color: white !important;
+  padding: 0px !;
+}
+.offcanvas-custom .nav-link {
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 0.5rem 0;
+}
+.contenidoBurguer {
+  width: 60vw;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.headerBurguer {
+  margin: 10px;
+}
+.btn-close:hover {
+  background-color: white !important;
+  color: #02012b !important;
+}
+
 @media only screen and (max-width: 480px) {
+  .contenidoBurguer {
+    width: 33vw !important;
+  }
+  .offcanvas-custom {
+    width: 33vw !important;
+  }
+  .offcanvas-body {
+    width: 33vw !important;
+  }
+  .offcanvas-header {
+    color: white !important;
+  }
+  .btn-close {
+    margin: 10px !important;
+    color: white !important;
+    background-color: white;
+  }
+
+  .offcanvas-header .btn-close:hover {
+    color: red !important;
+  }
   .navbarContainer {
     width: 100vw !important;
     height: auto !important;
@@ -95,10 +176,10 @@
     margin: 2px;
   }
   .nav-link {
-    font-size: 8px !important;
-    width: 15vw !important;
-    height: 20px;
-    margin: 3px !important;
+    font-size: 14px !important;
+    width: 18vw !important;
+    height: 30px;
+    margin: 15px !important;
     padding: 2px;
   }
   .pages {
@@ -111,14 +192,12 @@
   }
   .navbar-nav {
     display: flex !important;
-    flex-wrap: wrap !important;
-    flex-wrap: nowrap !important;
-    flex-direction: row !important;
-    align-items: center !important;
-    justify-content: center !important;
-    margin: 0px;
-    width: 80vw !important;
-    height: 20px !important;
+    flex-direction: column !important;
+    align-items: start !important;
+    justify-content: left !important;
+    margin: 5px;
+    width: 33vw !important;
+    height: auto !important;
   }
   .navbar-brand {
     width: 30vw !important;
@@ -128,52 +207,3 @@
     margin: 0px;
   }
 }
-@media (min-width: 481px) and (max-width: 1420px) {
-  .navbarContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
-  }
-  .pages {
-    display: flex;
-    flex-wrap: wrap !important;
-  }
-}
-
-/* @media (min-width: 481px) and (max-width: 1300px) {
-  .navbarContainer {
-    width: 100vw !important;
-    padding: 10px !important;
-    padding-left: 50px !important;
-  }
-  .navbar-brand {
-    width: 30vw !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 50px !important;
-    padding: 0;
-  }
-  .pages {
-    width: 100vw !important;
-    margin: 5px !important;
-  }
-  .navbar-nav {
-    width: 95vw !important;
-    display: flex !important;
-    flex-direction: row !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-evenly;
-  }
-  .nav-link {
-    width: 10vw;
-    font-size: 12px;
-  }
-  .logoLogincor {
-    width: 20vw !important;
-    margin: 2px;
-  }
-} */

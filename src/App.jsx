@@ -42,7 +42,7 @@ const App = () => {
     return (
       <div className="initial-page">
         <img
-          src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Editable%20(1)_Mesa%20de%20trabajo%201.png?alt=media&token=a004e9c5-44ae-44f3-bc3c-fcb9ca4d66f6"
+          src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Logincor%20blanco_Mesa%20de%20trabajo%201.png?alt=media&token=8238bbfd-465a-4165-a468-48c43a33e49e"
           alt="Logincor"
           className="initial-image"
         />
