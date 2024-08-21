@@ -1,4 +1,5 @@
 import Button from "@mui/material/Button";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Contacto.css";
 import MapaOficinaContacto from "../../common/mapasContacto/MapaOficinaContacto.jsx";
@@ -6,16 +7,38 @@ import MapaCbaContacto from "../../common/mapasContacto/MapaCbaContacto.jsx";
 import MapaBsAsContacto from "../../common/mapasContacto/MapaBsAsContacto.jsx";
 import MapaRosarioContacto from "../../common/mapasContacto/MapaRosarioContacto.jsx";
 import MapaSantaFeContacto from "../../common/mapasContacto/MapaSantaFeContacto.jsx";
+import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css"; // Asegúrate de importar el CSS de Skeleton
 
 const Contacto = () => {
+  const [loading, setLoading] = useState(true);
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000); // Ajusta el tiempo según sea necesario
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
+
   return (
     <div className="contenedorTotal">
       <div className="contenedorTitulo">
-        <img
-          className="titulo"
-          src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-07.png?alt=media&token=6f951f96-48f6-4c61-a906-77e80416e64a"
-          alt=""
-        />
+        {loading && !imageLoaded ? (
+          <Skeleton className="skeletonTitulo" />
+        ) : (
+          <img
+            className="titulo"
+            src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-07.png?alt=media&token=6f951f96-48f6-4c61-a906-77e80416e64a"
+            alt="Título Contacto"
+            onLoad={handleImageLoad} // Asegúrate de que esto se ejecute al cargar la imagen
+          />
+        )}
       </div>
       <div className="todasCards">
         <div className="contenedorDirecciones">

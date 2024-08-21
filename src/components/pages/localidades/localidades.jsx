@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Select from "react-select";
+import Skeleton from "react-loading-skeleton";
 import "./localidades.css";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
@@ -680,30 +681,7 @@ const data = {
 };
 
 const estilosPersonalizados = {
-  control: (base) => ({
-    ...base,
-    minHeight: "35px", // Ajusta a la altura deseada
-    boxShadow: "none",
-    "&:hover": {
-      borderColor: "gray", // Ajusta a tu color preferido
-    },
-  }),
-  valueContainer: (base) => ({
-    ...base,
-    padding: "0 6px",
-  }),
-  indicatorsContainer: (base) => ({
-    ...base,
-    height: "35px", // Ajusta a la altura deseada
-  }),
-  dropdownIndicator: (base) => ({
-    ...base,
-    padding: "0 8px",
-  }),
-  clearIndicator: (base) => ({
-    ...base,
-    padding: "0 8px",
-  }),
+  /* tus estilos aquí */
 };
 
 const ProvinciasLocalidades = () => {
@@ -739,13 +717,31 @@ const ProvinciasLocalidades = () => {
     return `https://wa.me/5493517078383?text=${encodeURIComponent(mensaje)}`;
   };
 
+  const [loading, setLoading] = useState(true);
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
+
   return (
     <div className="contenedorTotal">
       <div className="contenedorTitulo">
+        {!imageLoaded && loading && <Skeleton className="skeletonTitulo" />}
         <img
           className="titulo"
           src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-04.png?alt=media&token=6e93df9c-f49c-4f10-b1ce-24ac29ce6842"
-          alt=""
+          alt="Título"
+          onLoad={handleImageLoad}
+          style={{ display: imageLoaded ? "block" : "none" }}
         />
       </div>
       <div className="provincias-localidades">
@@ -753,11 +749,6 @@ const ProvinciasLocalidades = () => {
           Llegamos a más de 700 localidades de todo el país
         </h1>
         <div className="contenedorLocalidades">
-          {/* <img
-            className="mapaImg"
-            src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/mapa.png?alt=media&token=3f258575-b82e-43b5-aa96-a6e086cf983a"
-            alt=""
-          /> */}
           <div className="contenedorLabel">
             <div>
               <label className="textosLabel" htmlFor="provincia">
@@ -771,6 +762,7 @@ const ProvinciasLocalidades = () => {
                 className="form-select"
                 classNamePrefix="react-select"
                 styles={estilosPersonalizados}
+                placeholder="Selecciona una provincia"
               />
             </div>
             <div>
@@ -786,6 +778,7 @@ const ProvinciasLocalidades = () => {
                 classNamePrefix="react-select"
                 styles={estilosPersonalizados}
                 isDisabled={!selectedProvincia}
+                placeholder="Selecciona una localidad"
               />
             </div>
             <div>
@@ -804,10 +797,15 @@ const ProvinciasLocalidades = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                {!imageLoaded && loading && (
+                  <Skeleton className="skeletonTitulo" />
+                )}
                 <img
                   className="cotizacion"
                   src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Pedi%20tu%20cotizacion%20azul-04.png?alt=media&token=ac90e20c-50cd-45e1-b265-e75fa02bb329"
                   alt=""
+                  onLoad={handleImageLoad}
+                  style={{ display: imageLoaded ? "block" : "none" }}
                 />
                 <WhatsAppIcon className="whatsappIcon" />
               </a>

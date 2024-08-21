@@ -13,7 +13,7 @@ const ItemListContainer = () => {
       if (x) {
         setTimeout(() => {
           resolve(products);
-        }, 2000);
+        }, 0);
       } else {
         reject({ status: 400, message: "no estas autorizado" });
       }

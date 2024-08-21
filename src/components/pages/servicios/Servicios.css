@@ -41,6 +41,14 @@ h1 {
   align-items: center;
   justify-content: center;
 }
+.skeletonTitulo {
+  height: 1.5vw !important;
+  width: 300px !important;
+  opacity: 0.5 !important;
+  color: white !important;
+  margin: 1vw;
+  padding: 0.9vw;
+}
 
 @media only screen and (max-width: 480px) {
   .contenedorTitulo {

@@ -5,7 +5,6 @@ import ItemListContainer from "./components/pages/itemListContainer/ItemListCont
 import { Layout } from "./components/layout/Layout.jsx";
 import ItemDetail from "./components/pages/itemDetail/ItemDetail.jsx";
 import CartContextProvider from "./context/CartContext.jsx";
-
 import CarouselItemListContainer from "./components/pages/carouselItemListContainer.jsx";
 import { useState } from "react";
 import "./App.css";
@@ -18,20 +17,22 @@ import Flota from "./components/pages/flota/Flota.jsx";
 import Contacto from "./components/pages/contacto/Contacto.jsx";
 
 const App = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
   const [showContent, setShowContent] = useState(false);
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+    // Ya no se cambia showContent automáticamente aquí
+  };
 
   const handleShowContent = () => {
     setShowContent(true);
   };
 
   const fetchItem = async (id) => {
-    // Convierte id a número utilizando el operador unario +
     const itemId = +id;
-
-    // Implementa la lógica para obtener el servicio por ID
     const item = serviciosMock.find((service) => service.id === itemId);
-    console.log("Servicio encontrado:", item); // Para verificar si el servicio se ha encontrado correctamente
-
+    console.log("Servicio encontrado:", item);
     if (!item) {
       throw new Error("Item not found");
     }
@@ -41,11 +42,15 @@ const App = () => {
   if (!showContent) {
     return (
       <div className="initial-page">
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Logincor%20blanco_Mesa%20de%20trabajo%201.png?alt=media&token=8238bbfd-465a-4165-a468-48c43a33e49e"
-          alt="Logincor"
-          className="initial-image"
-        />
+        <div className="initial-image placeholder">
+          {!imageLoaded && <div className="loading-indicator"></div>}
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/logo%20logincor-03.png?alt=media&token=3c30fbc0-61ac-484e-9f21-6788654ce3e4"
+            alt="Logincor"
+            className="initial-image"
+            onLoad={handleImageLoad}
+          />
+        </div>
         <button
           onClick={handleShowContent}
           className="view-more-button"
@@ -69,13 +74,11 @@ const App = () => {
                 path="/servicios/:id"
                 element={<ItemDetail fetchItem={fetchItem} />}
               />
-
               <Route path="category/:name" element={<ItemListContainer />} />
               <Route path="/Destinos" element={<ProvinciasLocalidades />} />
               <Route path="/QuienesSomos" element={<QuienesSomos />} />
               <Route path="/Flota" element={<Flota />} />
               <Route path="/Contacto" element={<Contacto />} />
-
               <Route path="*" element={<h1>Error 404</h1>} />
             </Route>
           </Routes>

@@ -3,24 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .cardContainerServicios {
   width: 20vw !important;
   height: 25vw !important;
   border-radius: 20px;
   transition: transform 0.3s ease;
-  padding: 5px;
+  padding: 1px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 20px !important;
   margin-bottom: 20px !important;
 }
+
 .cardContainerServicios:hover {
   transform: scale(1.03);
 }
+
 .cardCardServicios {
-  width: 20vw !important;
-  height: 25vw !important;
+  width: 19vw !important;
+  height: 24vw !important;
   cursor: pointer;
   background-color: #02012b !important;
   display: flex !important;
@@ -31,12 +34,14 @@
   border-radius: 15px !important;
   margin: 1px !important;
 }
+
 .linkServicios {
   width: 20vw !important;
   height: 25vw !important;
   text-decoration: none;
   padding: 5px;
 }
+
 .imgCardServicios {
   width: 10vw;
   height: 10vw;
@@ -46,9 +51,9 @@
   border-radius: 5px;
   padding: 5px;
 }
+
 .typoServicios {
   text-decoration: none !important;
-  text-decoration-line: none !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,16 +62,19 @@
   padding: 2px;
   font-size: 1.4vw !important;
 }
+
 .buttonCard {
   background-color: white !important;
   color: black !important;
   border: none !important;
   width: 150px !important;
 }
+
 .verMas {
   color: white !important;
   border: white;
 }
+
 .botonMas {
   background-color: #02012b !important;
   margin: 20px !important;
@@ -76,16 +84,57 @@
   color: white !important;
   text-transform: none !important;
 }
+
 .contenedorImgServicios {
   display: flex;
-  align-items: flex-start;
-  margin-bottom: 20px;
+  align-items: center;
   justify-content: center;
   width: 10vw;
   height: 10vw;
+  position: relative; /* Para posicionar el placeholder sobre la imagen */
 }
+
+.imgCardServicios {
+  width: 10vw;
+  height: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative; /* Para que el placeholder se posicione encima */
+}
+
+.placeholder-imgCardServicios {
+  width: 5vw;
+  height: 5vw;
+  opacity: 0.5;
+  background: #e0e0e0; /* Color de fondo del placeholder de imagen */
+  border-radius: 50px;
+  animation: bounce 1s infinite; /* Efecto bounce */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 .contenedorTextoServicios {
-  padding: 1px;
+  padding: 0px !important;
 }
 
 @media only screen and (max-width: 480px) {

@@ -11,7 +11,7 @@ const Envio = () => {
         >
           <img
             className="segui"
-            src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/segui%20tu%20envio%20a-03-03-03.png?alt=media&token=ea684d3a-f209-4076-904e-cc177ced81e9"
+            src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/segui%20tu%20envio%20a-03-03.png?alt=media&token=e41197e4-cc8c-484b-8692-21db3943b743"
             alt=""
           />
         </a>

@@ -1,13 +1,32 @@
+import React, { useState, useEffect } from "react";
 import "./Flota.css";
+import Skeleton from "react-loading-skeleton";
 
 const Flota = () => {
+  const [loading, setLoading] = useState(true);
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000); // Ajusta el tiempo según sea necesario
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
   return (
     <div className="contenedorTotal">
       <div className="contenedorTitulo">
+        {!imageLoaded && loading && <Skeleton className="skeletonTitulo" />}
         <img
           className="titulo"
           src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-05.png?alt=media&token=a6bc5db2-4c14-4475-b387-d07e58107c36"
           alt=""
+          onLoad={handleImageLoad}
+          style={{ display: imageLoaded ? "block" : "none" }}
         />
       </div>
       <div className="contenedorFlota">

@@ -1,15 +1,45 @@
+import React, { useState, useEffect } from "react";
 import { Card } from "react-bootstrap";
-import "./quienesSomos.css";
 import { CardContent } from "@mui/material";
+import Skeleton from "react-loading-skeleton";
+import "./quienesSomos.css";
 
 const QuienesSomos = () => {
+  const [loading, setLoading] = useState(true);
+  const [imageLoaded, setImageLoaded] = useState({
+    titulo: false,
+    mision: false,
+    vision: false,
+    valores: false,
+  });
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000); // Ajusta el tiempo según sea necesario
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleImageLoad = (name) => {
+    setImageLoaded((prevState) => ({
+      ...prevState,
+      [name]: true,
+    }));
+  };
+
   return (
     <div className="contenedorTotal2">
       <div className="contenedorTitulo">
+        {!imageLoaded.titulo && loading && (
+          <Skeleton className="skeletonTitulo" />
+        )}
         <img
           className="titulo"
           src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-06.png?alt=media&token=351856de-5cd1-4dad-b3c2-b45895eb0b1e"
           alt=""
+          onLoad={() => handleImageLoad("titulo")}
+          style={{ display: imageLoaded.titulo ? "block" : "none" }}
         />
       </div>
 
@@ -18,17 +48,22 @@ const QuienesSomos = () => {
           <div className="conteTextos">
             <h1 className="texto1">
               En Logincor ofrecemos servicios de transporte y logística de
-              primera calidad en todo el país con más 30 años de experiencia en
-              el sector. Hemos construido una reputación sólida basada en la
+              primera calidad en todo el país con más de 30 años de experiencia
+              en el sector. Hemos construido una reputación sólida basada en la
               confiabilidad, la eficiencia y la seguridad de nuestros servicios.
             </h1>
           </div>
           <div className="cardCard2">
             <div className="imagenCard2">
+              {!imageLoaded.mision && (
+                <div className="placeholder-imgCardServicios"></div>
+              )}
               <img
                 className="imgImg2"
                 src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/mision.png?alt=media&token=07485978-5a0d-49c0-8321-e1b1f389e265"
                 alt=""
+                onLoad={() => handleImageLoad("mision")}
+                style={{ display: imageLoaded.mision ? "block" : "none" }}
               />
             </div>
 
@@ -47,10 +82,15 @@ const QuienesSomos = () => {
           </div>
           <Card className="cardCard2">
             <div className="imagenCard2">
+              {!imageLoaded.mision && (
+                <div className="placeholder-imgCardServicios"></div>
+              )}
               <img
                 className="imgImg2"
                 src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/vision.png?alt=media&token=c2cc1596-44c3-4a14-a358-0de3545ec854"
                 alt=""
+                onLoad={() => handleImageLoad("mision")}
+                style={{ display: imageLoaded.mision ? "block" : "none" }}
               />
             </div>
 
@@ -70,10 +110,15 @@ const QuienesSomos = () => {
           </Card>
           <Card className="cardCard2">
             <div className="imagenCard2">
+              {!imageLoaded.mision && (
+                <div className="placeholder-imgCardServicios"></div>
+              )}
               <img
                 className="imgImg2"
                 src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/valores.png?alt=media&token=f4029d92-dfac-4c18-b6e1-1e646213b493"
                 alt=""
+                onLoad={() => handleImageLoad("mision")}
+                style={{ display: imageLoaded.mision ? "block" : "none" }}
               />
             </div>
 

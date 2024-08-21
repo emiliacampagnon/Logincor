@@ -20,7 +20,7 @@ function BasicExample() {
           <Link to="/" className="navbar-brand">
             <img
               className="logoLogincor"
-              src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/Logincor%20blanco_Mesa%20de%20trabajo%201.png?alt=media&token=8238bbfd-465a-4165-a468-48c43a33e49e"
+              src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/logo%20logincor-03.png?alt=media&token=3c30fbc0-61ac-484e-9f21-6788654ce3e4"
               width={180}
               alt="Logincor"
             />
