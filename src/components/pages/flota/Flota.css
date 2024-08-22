@@ -190,7 +190,7 @@
   }
   .titulosVehiculos {
     width: 30vw;
-    height: 5vw !important;
+    height: 7vw !important;
     font-size: 2.2vw !important;
     margin: 0px !important;
     border-radius: 5px;
@@ -228,7 +228,7 @@
   }
   .contenedorTextosFlota {
     width: 30vw;
-    margin: 15px 5px !important;
+    margin: 10px 5px !important;
   }
   .textoFlota {
     font-size: 2vw;
