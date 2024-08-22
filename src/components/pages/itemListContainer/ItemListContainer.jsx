@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { products } from "../../../productsMock";
-import { useEffect } from "react";
-import ItemList from "./ItemList";
+import ProductCard from "../../common/productCard/ProductCard";
+import "./ItemListContainer.css";
 
 const ItemListContainer = () => {
   const [items, setItems] = useState([]);
@@ -22,7 +22,25 @@ const ItemListContainer = () => {
     getProducts.then((res) => setItems(res)).catch((error) => setError(error));
   }, []);
 
-  return <ItemList items={items} error={error} />;
+  return (
+    <div className="itemList">
+      <div className="contenedorCardItemList">
+        {items.map(({ id, title, description, img }) => {
+          return (
+            <ProductCard
+              key={id}
+              title={title}
+              description={description}
+              img={img}
+              id={id}
+            />
+          );
+        })}
+
+        {error && <h2>{error.message}</h2>}
+      </div>
+    </div>
+  );
 };
 
 export default ItemListContainer;

@@ -30,72 +30,39 @@
   margin: 5px !important;
   padding: 5px !important;
   border-radius: 15px !important;
-  position: relative; /* Para posicionar el placeholder sobre la tarjeta */
 }
 
 .card-placeholder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  width: 20vw;
+  height: 25vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #f0f0f0; /* Fondo del placeholder */
+  margin: 5px !important;
+  padding: 5px !important;
+  background-color: #02012b; /* Fondo del placeholder */
   color: #888; /* Color del texto del placeholder */
   border-radius: 15px; /* Coincide con el border-radius de .cardCard */
-  z-index: 1; /* Asegura que el placeholder esté sobre la tarjeta */
-}
-
-.image-placeholder {
-  width: 10vw;
-  height: 10vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #e0e0e0; /* Color de fondo del placeholder de imagen */
-  border-radius: 5px; /* Coincide con el border-radius de .imgCard */
-  margin-bottom: 10px;
-  border-color: transparent;
-}
-
-.title-placeholder,
-.description-placeholder {
-  background-color: #e0e0e0; /* Color de fondo del placeholder de texto */
-  margin: 5px;
-  width: 16vw; /* Ajusta según el tamaño del texto */
-  height: 2vw; /* Ajusta según el tamaño del texto */
-  border-radius: 5px;
-}
-
-.title-placeholder {
-  width: 16vw;
-}
-
-.description-placeholder {
-  width: 16vw;
-  height: 4vw; /* Ajusta según la longitud del texto */
 }
 
 .contenedorImgCard {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 10vw;
-  height: 10vw;
-  position: relative; /* Para posicionar el placeholder sobre la imagen */
+  width: 12vw;
+  height: 12vw;
+  margin-top: 1.5vw;
 }
 
 .imgCard {
-  width: 10vw;
-  height: 10vw;
+  width: 12vw;
+  height: 12vw;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  padding: 5px;
+  padding: 0.5vw;
 }
 
 .typo {
@@ -106,8 +73,8 @@
   justify-content: center;
   text-align: center;
   color: white !important;
-  padding: 2px;
-  margin: 5px 0px !important;
+  padding: 0vw;
+  margin: 0.5vw !important;
 }
 
 .typo2 {
@@ -135,7 +102,7 @@
   justify-content: start !important;
   width: 16vw !important;
   height: 8vw;
-  margin: 2px;
+  margin-bottom: 1.5vw;
   padding: 0px !important;
 }
 
@@ -159,17 +126,7 @@
     margin: 3% !important;
     padding: 0px !important;
   }
-  .contenedorImgCard {
-    width: 10vw;
-    height: 10vw;
-    padding: 2px;
 
-    margin-top: 10px !important;
-  }
-  .imgCard {
-    width: 9vw;
-    height: 9vw;
-  }
   .typo {
     height: 6vw !important;
     font-size: 1.8vw !important;
@@ -185,7 +142,7 @@
   .contenedorTextoCard {
     width: 20vw !important;
     height: auto;
-    margin-bottom: 15px !important;
+    margin-bottom: 10px !important;
     padding: 2px !important;
   }
 }

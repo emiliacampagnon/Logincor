@@ -7,9 +7,10 @@ const ProductCard = ({ title, description, img, id }) => {
   const [contentLoaded, setContentLoaded] = useState(false);
 
   const handleImageLoad = () => {
+    console.log("Imagen cargada");
     setImageLoaded(true);
     // Set a short timeout to ensure the placeholder covers the entire card until everything is loaded
-    setTimeout(() => setContentLoaded(true), 100);
+    setTimeout(() => setContentLoaded(true), 1000);
   };
 
   return (
@@ -19,8 +20,8 @@ const ProductCard = ({ title, description, img, id }) => {
           <div className="card-placeholder">
             <div className="image-placeholder"></div>
             <div className="text-placeholder">
-              <div className="title-placeholder"> </div>
-              <div className="description-placeholder"> </div>
+              <div className="title-placeholder"></div>
+              <div className="description-placeholder"></div>
             </div>
           </div>
         )}

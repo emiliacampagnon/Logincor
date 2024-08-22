@@ -15,9 +15,14 @@ const Contacto = () => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
+    const img = new Image();
+    img.src =
+      "https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-07.png?alt=media&token=bc813ace-a6c5-4b3c-ba86-b7e4350f4375";
+    img.onload = () => setImageLoaded(true);
+
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000); // Ajusta el tiempo según sea necesario
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -34,7 +39,7 @@ const Contacto = () => {
         ) : (
           <img
             className="titulo"
-            src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-07.png?alt=media&token=6f951f96-48f6-4c61-a906-77e80416e64a"
+            src="https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/titulooo-07.png?alt=media&token=bc813ace-a6c5-4b3c-ba86-b7e4350f4375"
             alt="Título Contacto"
             onLoad={handleImageLoad} // Asegúrate de que esto se ejecute al cargar la imagen
           />

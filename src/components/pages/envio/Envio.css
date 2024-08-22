@@ -4,25 +4,22 @@
   box-sizing: border-box;
 }
 .containerPrincipal {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
   width: 100vw;
-  margin-top: 20px;
-  margin-bottom: 0px !important;
 }
 .seguiContainer {
   cursor: pointer;
   width: 50vw;
   height: 5vw !important;
-  height: auto;
+  margin: 2vw;
+
   background-color: #02012b;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 5px;
   border-radius: 15px;
   transition: transform 0.3s ease-in-out !important;
 }
@@ -41,13 +38,13 @@
 .searchIcon {
   color: white;
   font-size: 3vw !important;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .estadoEnvio {
   font-size: 1.5vw;
   font-style: italic;
-  margin: 20px;
+  margin: 0.5vw;
   color: #02012b;
 }
 

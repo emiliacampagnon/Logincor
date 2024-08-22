@@ -16,8 +16,7 @@ h1 {
   height: auto;
   display: flex !important;
   justify-content: center !important;
-  margin: 30px 0px;
-  margin-bottom: 40px;
+  margin: 3vw 0vw;
 }
 .contenedorCardItemList {
   width: 100vw !important;
@@ -34,7 +33,6 @@ h1 {
     justify-content: space-evenly !important;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 20px 0px !important;
   }
   .contenedorCardItemList {
     display: flex !important;

@@ -113,11 +113,12 @@
     margin: 1px !important;
   }
   .contenedorCards2 {
-    width: 380px;
+    padding: 2vw;
+    width: 90vw;
     margin: 10px !important;
   }
   .cardGeneral2 {
-    width: 360px;
+    width: 90vw;
   }
   .texto1 {
     font-size: 2vw !important;
@@ -125,7 +126,7 @@
     line-height: 4vw;
   }
   .cardCard2 {
-    width: 90vw !important;
+    width: 85vw !important;
     min-height: 15vw !important;
     margin: 5px !important;
     display: flex;

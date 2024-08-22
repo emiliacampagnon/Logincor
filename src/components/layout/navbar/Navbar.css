@@ -134,11 +134,22 @@ button:active {
 .headerBurguer {
   margin: 10px;
 }
-.btn-close:hover {
-  background-color: white !important;
-  color: #02012b !important;
+.btn-close-white {
+  color: white !important;
+  border-radius: 5px; /* Redondear los bordes del botón */
+  width: 20px !important; /* Tamaño del botón */
+  height: 20px !important;
+  margin-left: 15px !important;
+  padding: 2px !important;
+  margin: 0px !important;
 }
 
+.btn-close-white:hover {
+  background-color: white !important; /* Cambia el color de fondo al pasar el cursor */
+  color: rebeccapurple !important; /* Cambia el color del ícono */
+  border: 2px solid rebeccapurple; /* Agrega un borde al hacer hover */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Animación suave */
+}
 @media only screen and (max-width: 480px) {
   .contenidoBurguer {
     width: 33vw !important;
@@ -152,15 +163,7 @@ button:active {
   .offcanvas-header {
     color: white !important;
   }
-  .btn-close {
-    margin: 10px !important;
-    color: white !important;
-    background-color: white;
-  }
 
-  .offcanvas-header .btn-close:hover {
-    color: red !important;
-  }
   .navbarContainer {
     width: 100vw !important;
     height: auto !important;
@@ -176,7 +179,7 @@ button:active {
     margin: 2px;
   }
   .nav-link {
-    font-size: 14px !important;
+    font-size: 11px !important;
     width: 18vw !important;
     height: 30px;
     margin: 15px !important;
