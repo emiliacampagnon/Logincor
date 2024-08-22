@@ -31,8 +31,8 @@ const Mapa = () => {
     iconUrl:
       "https://firebasestorage.googleapis.com/v0/b/logincor-f1fb5.appspot.com/o/ubicacion.png?alt=media&token=c562789b-d1df-4fed-af18-2f80226aa40b", // URL del ícono
     iconSize: iconSize, // Tamaño dinámico del ícono
-    iconAnchor: [16, 32], // Punto en el que se ancla el ícono (debe ser la base del ícono)
-    popupAnchor: [0, -32], // Ajusta el punto de anclaje del popup
+    iconAnchor: [iconSize[0] / 2, iconSize[1]], // Ajusta el punto de anclaje al centro horizontal y base vertical del ícono
+    popupAnchor: [0, -iconSize[1]], // Ajusta el punto de anclaje del popup basado en el tamaño del ícono
   });
 
   return (
