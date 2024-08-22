@@ -166,7 +166,8 @@
   .botonMapaContacto {
     width: 6vw !important;
     height: 4vw !important;
-    font-size: 1.4vw !important;
+    font-size: 1.7vw !important;
+    font-weight: 400 !important;
     padding: 0px !important;
     margin: 2px !important;
     margin-left: 2vw !important;
