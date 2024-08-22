@@ -45,6 +45,7 @@
 
 .addIcon {
   font-size: 40px !important;
+  color: #02012b !important;
 }
 
 @keyframes bounce {
@@ -79,6 +80,7 @@
 @media only screen and (max-width: 480px) {
   .addIcon {
     font-size: 30px !important;
+    color: #02012b !important;
   }
   .view-more-button {
     height: 50px !important;
