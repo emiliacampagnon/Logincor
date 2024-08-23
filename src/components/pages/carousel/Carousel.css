@@ -40,7 +40,7 @@ button {
 .carousel-container {
   position: relative;
   width: 100vw;
-  height: 40vw; /* Ajusta según el tamaño de tu imagen */
+  height: 43vw; /* Ajusta según el tamaño de tu imagen */
 }
 
 .skeleton-placeholder {
@@ -49,8 +49,8 @@ button {
 }
 
 .imgCamion {
-  width: 100%;
-  height: 100%;
+  width: 100vw !important;
+  height: auto !important;
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -62,10 +62,4 @@ button {
 }
 
 @media only screen and (max-width: 480px) {
-  .imagenSola {
-    width: 150vw !important;
-  }
-  .imgCamion {
-    width: 150vw !important;
-  }
 }
