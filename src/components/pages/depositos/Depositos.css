@@ -10,7 +10,7 @@
   justify-content: center !important;
   align-items: center;
   flex-direction: column;
-  border-radius: 20px;
+  border-radius: 15px;
   margin: 50px 10px !important;
 }
 .nuestrosDepositos {
@@ -29,7 +29,7 @@
 
 .cardMapas {
   background-color: white;
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex !important;
   align-items: center;
   justify-content: space-around !important;
@@ -39,7 +39,7 @@
   flex-wrap: nowrap;
   margin: 25px 15px !important;
   cursor: pointer !important;
-  padding: 5px !important;
+  padding: 0px !important;
 }
 
 .textosMaps {
@@ -120,20 +120,20 @@
   }
   .textosMaps {
     width: 22vw !important;
-    margin: 2px;
+    margin: 5apx;
     padding: 0px;
   }
   .h2Depositos {
-    font-size: 1.8vw;
+    font-size: 2.2vw;
     margin: 1px 0px;
   }
   .h3Depositos {
-    font-size: 1vw;
-    margin: 1px 0px;
+    font-size: 1.5vw;
+    margin: 0px 0px;
   }
   .h4Depositos {
-    font-size: 1vw;
-    margin: 1px 0px;
+    font-size: 1.5vw;
+    margin: 0px 0px;
   }
   .botonMapa {
     width: 18vw !important;

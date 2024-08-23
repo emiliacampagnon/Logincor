@@ -7,7 +7,7 @@
 .cardContainer {
   min-width: 20vw !important;
   height: 25vw !important;
-  border-radius: 20px;
+  border-radius: 10px !important;
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
@@ -29,7 +29,7 @@
   justify-content: space-evenly !important;
   margin: 5px !important;
   padding: 5px !important;
-  border-radius: 15px !important;
+  border-radius: 10px !important;
 }
 
 .card-placeholder {
@@ -129,14 +129,14 @@
 
   .typo {
     height: 6vw !important;
-    font-size: 1.8vw !important;
+    font-size: 2vw !important;
     margin-bottom: 5px !important;
     margin: 5px;
   }
   .typo2 {
     width: 18vw;
     height: 4vw !important;
-    font-size: 1vw !important;
+    font-size: 1.2vw !important;
     margin: 5px;
   }
   .contenedorTextoCard {
